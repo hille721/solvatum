@@ -32,15 +32,14 @@ For this just type
 in your command line.
 (This requires of course that conda is installed)
 
-  
-# Usage of the database interface:
 
-For using the database interface from each directory, ad the pyhtonpath to your bashrc:
+For using the database interface from each directory, add the pyhtonpath to your bashrc:
 
 ```bash
 export PYTHONPATH=$PYTHONPATH:<path_to_the_repository>/solvation-free-energy-database/database
 ``` 
-
+  
+# Usage of the database interface:
 Open a Python prompt and type in:
 
 ```python
@@ -102,7 +101,7 @@ This method take the keywords 'save=True', for saving a png figure of the depict
 There is a known issue in Pybel in the drawing functionality, which was already reported and is also fixed in the Pybel source code.
 But it could be that with installing Pybel with conda or PIP and not directly from source the following error still appears:
 
-```python
+```
 ImportError: Tkinter or Python Imaging Library not found, but is required for image display. See installation instructions for more information.
 ```
 
