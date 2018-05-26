@@ -86,7 +86,7 @@ Adding new properties can simple done with
 For adding dielectric constants, there exists a extra command:
 
 ```python
->> d.add_dielectric_constant(<molecule>, <value>, <source>)
+>>> d.add_dielectric_constant(<molecule>, <value>, <source>)
 ```
 
 The database interface also provides the possibility to draw depictions of the molecules:
