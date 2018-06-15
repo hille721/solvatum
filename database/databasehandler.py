@@ -79,13 +79,16 @@ class Database:
                     sol = 'WATER'
                 elif name == 'dielectric constant':
                     eps[data['Name']] = data[name]
+                    sol = None
                 else:
+                    sol = None
                     continue
                 if sol not in solvents:
                     solvents[sol] = 1
                 else:
                     solvents[sol] += 1
         
+        del solvents[None]
         solvents_out = {}
         for sol in solvents:
             if sol in eps:
