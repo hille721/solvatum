@@ -33,7 +33,7 @@ in your command line.
 (This requires of course that conda is installed)
 
 
-For using the database interface from each directory, add the pyhtonpath to your bashrc:
+For using the database interface from each directory, add the pythonpath to your bashrc:
 
 ```bash
 export PYTHONPATH=$PYTHONPATH:<path_to_the_repository>/solvation-free-energy-database/database
