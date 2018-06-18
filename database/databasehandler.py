@@ -60,7 +60,7 @@ class Database:
         solutes = {}
 
         for mol in self.__sdf_file:
-            solutes[mol.title] = mol.data['Name']
+            solutes[mol.title] = mol.data['Name'].upper()
 	
         return solutes
 
