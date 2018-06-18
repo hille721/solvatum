@@ -4,7 +4,7 @@ With this module you can interact with the database.
 (Call up values or possible (in meaning that there exists a logK value) solvent-solute combinations, change values, add properties, ...)
 
 Version 2
-Last Update 16.04.2018
+Last Update 18.06.2018
 @author: Christoph Hille
 """
 
@@ -14,6 +14,13 @@ from os.path import join as pathjoin
 import pybel
 import numpy as np
 from scipy import constants
+import time
+from subprocess import call
+
+try:
+    from ase.io import sdf
+except IOError:
+    pass
 
 class Database:
     """
@@ -346,9 +353,6 @@ class Database:
         """
         Seperates the whole SD file into a file per solute
         """
-
-        import time
-
         time = time.strftime("%Y%m%d%H%M%S")
         folder = 'seperated_files_' + time
         os.mkdir(folder)
@@ -412,3 +416,43 @@ class Database:
                     mol.draw()
 
             mol.title = oldtitle
+            
+    def mol_to_ase(self, molecule):
+        """
+        Return the geometry of a molecule as ASE Atoms object. 
+        ASE has to be installed (it is even enough to clone the git repo https://gitlab.com/ase/ase and set the Python path).
+        More informations: https://wiki.fysik.dtu.dk/ase/
+        """
+        
+        if "ase" not in sys.modules:
+            print(r"You have to install ASE before you can use this feature." + "\n"  
+                  r"Go to https://wiki.fysik.dtu.dk/ase/ for more informations.")
+            
+        molecule = self.__name_id_handler([molecule], disp=False)[0]    
+        mol = self.__sdf_file[int(molecule)]
+        
+        output = pybel.Outputfile('sdf', ".tmp.sdf", overwrite=True)
+        output.write(mol)
+        
+        ase_atoms = sdf.read_sdf(".tmp.sdf")
+        os.remove(".tmp.sdf")
+        
+        return ase_atoms
+        
+    def d3_viewer(self, molecule, viewer='avogadro'):
+        """
+        Opens the geometry of the molecule in a 3d viewer. 
+        Currently only avogadro is supported, but you can test other as well.
+        """
+        
+        molecule = self.__name_id_handler([molecule], disp=False)[0]    
+        mol = self.__sdf_file[int(molecule)]
+        
+        output = pybel.Outputfile('sdf', ".tmp.sdf", overwrite=True)
+        output.write(mol)
+        
+        call([viewer, '.tmp.sdf'])
+        os.remove(".tmp.sdf")
+        
+    
+        
