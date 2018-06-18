@@ -171,6 +171,10 @@ class Database:
 
         if solvent == 'WATER':
             key = 'dgexp marzari (WATER)'
+        elif solvent == '(\\XB1)-2-BUTANOL':
+            key = 'logK ((\\xb1)-2-BUTANOL)'
+        elif solvent == '(\\XB1)-1,2-PROPANEDIOL':
+            key = 'logK ((\\xb1)-1,2-PROPANEDIOL)'
         else:
             key = 'logK (' + solvent + ')'
         solutes_list = []
