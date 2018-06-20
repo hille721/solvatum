@@ -19,7 +19,7 @@ from subprocess import call
 
 try:
     from ase.io import sdf
-except IOError:
+except ImportError:
     pass
 
 class Database:
