@@ -514,5 +514,23 @@ class Database:
         call([viewer, '.tmp.sdf'])
         os.remove(".tmp.sdf")
         
+    def sol_has_ring(self, solute):
+        """
+        Checks if solute has ring system.
+        
+        Returns bool.
+        """
+        solute = self.__name_id_handler([solute], disp=False)[0]   
+        
+        mol = self.__one_mol_from_sdf(solute)
+        
+        for atom in mol.atoms:                    
+            if atom.OBAtom.CountRingBonds() > 0:
+                return True
+        
+        return False
+        
+        
+        
     
         
