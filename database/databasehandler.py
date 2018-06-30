@@ -1,10 +1,13 @@
 #!/usr/bin/python
 """
-With this module you can interact with the database.
-(Call up values or possible (in meaning that there exists a logK value) solvent-solute combinations, change values, add properties, ...)
+With this module you can interact with the solvation free energy database.
+The usage of the database is described in the README.
 
-Version 2
-Last Update 18.06.2018
+Please note:
+This module was written for Python2.7. 
+The compatibility with Python3 has not been tested yet.
+
+Last Update 30.06.2018
 @author: Christoph Hille
 """
 
@@ -13,19 +16,26 @@ import os
 from os.path import join as pathjoin
 import pybel
 import numpy as np
+import pandas as pd
 from scipy import constants
 import time
 from subprocess import call
+import pprint
 
 try:
     from ase.io import sdf
 except ImportError:
     pass
 
+try:
+    import bibtexparser
+except ImportError:
+    pass
+
 class Database:
     """
     options:
-        - path:         - str; path to the database
+        - path:         - str; path to the databasefile
         - name:         - str; databasename
                           default: 'database.sdf'
         - energy_unit:  - str; 'eV' or 'kcal'
@@ -366,7 +376,53 @@ class Database:
             singlefile = pybel.Outputfile("sdf", str(mol.title) + '.sdf', overwrite=True)
             singlefile.write(mol)
             singlefile.close()
+    
+    def get_reference(self, solvent):
+        """
+        Returns the reference of the partition coefficient for one solvent.
+        Requires the installation of bibtexparser (http://bibtexparser.readthedocs.io/en/master/index.html)
+        """
 
+        if "bibtexparser" not in sys.modules:
+            print(r"This feature requires the installation of bibtexparser." + "\n"  
+                  r"Go to http://bibtexparser.readthedocs.io/en/master/index.html for more informations.")
+        
+        solvent = self.__name_id_handler([solvent], direction='name', issolvent=True, disp=False)[0]
+        
+        os.chdir(self.path)
+        os.chdir('..')
+        mainpath = os.getcwd()
+        
+        try:
+            with open(pathjoin(mainpath, 'references', 'references.bib')) as bibtex_file:
+                bib_database = bibtexparser.load(bibtex_file)
+        except IOError:
+            raise IOError("The bibtex file 'references.bib' could not be found." +
+                          "Ensure the same folder structure as in the git repository")
+        
+        refs = bib_database.entries_dict
+        
+        try:
+            ref_per_solvent = pd.read_csv(pathjoin(mainpath, 'references', 'references_per_solvent.csv'), index_col=0)
+        except IOError:
+            raise IOError("The file 'references_per_solvent.csv' could not be found in the folder references." +
+                          "Ensure the same folder structure as in the git repository")
+        ref_per_solvent = ref_per_solvent['reference']
+        ref_per_solvent = ref_per_solvent.dropna()
+        
+        if solvent in ref_per_solvent:
+            print ''
+            keys = [u'title',  u'author',  u'journal', u'year', u'volume', u'pages',  u'doi',  u'url', 'ID']
+            for key in  keys:
+                try:
+                    entry = refs[ref_per_solvent[solvent]][key]
+                    print key + ': ' + entry
+                except KeyError:
+                    pass
+        else:
+            print('No reference for solvent %s deposited' %solvent)
+        
+    
     def draw(self, molecule, title=None, notebook=False, save=None):
         """
         Drawing a given molecules. 
