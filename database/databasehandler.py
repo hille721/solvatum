@@ -529,6 +529,27 @@ class Database:
                 return True
         
         return False
+    
+    def sol_is_aromatic(self, solute):
+        """
+        Checks if solute requires the necessary conditions for an aromatic compound.
+        ATTENTION: it is not sufficient. The solute can also be an anti-aromatic compound.
+        
+        Returns bool.
+        """
+        if not self.sol_has_ring(solute):
+            return False
+        
+        solute = self.__name_id_handler([solute], disp=False)[0]   
+        
+        mol = self.__one_mol_from_sdf(solute)
+    
+        for atom in mol.atoms:                    
+            if atom.OBAtom.CountRingBonds() > 0:
+                if atom.hyb != 2:
+                    return False
+        
+        return True
         
         
         
