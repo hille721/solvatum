@@ -550,7 +550,30 @@ class Database:
                     return False
         
         return True
+
+    def atoms_in_sol(self, solute):
+        """
+        Returns the number of atoms in a given solute
+        """
+        solute = self.__name_id_handler([solute], disp=False)[0]
+
+        mol = self.__one_mol_from_sdf(solute)
+
+        return len(mol.atoms)
+    
+    def sol_has_conj(self, solute):
+        """
+        Returns if solute has a conjugated system (an atom which is sp1 or sp2 hybridized)
+        """
+        solute = self.__name_id_handler([solute], disp=False)[0]
+
+        mol = self.__one_mol_from_sdf(solute)
+
+        for atom in mol.atoms:
+            if atom.hyb != 0 and atom.hyb != 3:
+                return True
         
+        return False
         
         
     
