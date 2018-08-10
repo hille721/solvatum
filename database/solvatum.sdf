@@ -1,5 +1,5 @@
 000
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 He  0  0  0  0  0  0  0  0  0  0  0  0
@@ -165,7 +165,7 @@ HELIUM
 
 $$$$
 001
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 Ne  0  0  0  0  0  0  0  0  0  0  0  0
@@ -313,7 +313,7 @@ NEON
 
 $$$$
 002
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 Ar  0  0  0  0  0  0  0  0  0  0  0  0
@@ -512,7 +512,7 @@ ARGON
 
 $$$$
 003
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 Kr  0  0  0  0  0  0  0  0  0  0  0  0
@@ -669,7 +669,7 @@ KRYPTON
 
 $$$$
 004
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 Xe  0  0  0  0  0  0  0  0  0  0  0  0
@@ -817,7 +817,7 @@ XENON
 
 $$$$
 005
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 Rn  0  0  0  0  0  0  0  0  0  0  0  0
@@ -893,7 +893,7 @@ RADON
 
 $$$$
 006
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  0  0  0  0  0  0  0  0  0999 V2000
     0.3751   -0.0000   -0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
@@ -1093,7 +1093,7 @@ DIHYDROGEN
 
 $$$$
 007
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  1  0  0  0  0  0  0  0  0999 V2000
     0.6092   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -1291,7 +1291,7 @@ O=O
 
 $$$$
 008
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  1  0  0  0  0  0  0  0  0999 V2000
     0.5513    0.0000   -0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
@@ -1480,7 +1480,7 @@ N#N
 
 $$$$
 009
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
     1.1541   -0.0288    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
@@ -1594,7 +1594,7 @@ NITROUS OXIDE
 
 $$$$
 010
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  1  0  0  0  0  0  0  0  0999 V2000
     0.5677    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -1742,7 +1742,7 @@ CARBON MONOXIDE
 
 $$$$
 011
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
    -0.0000   -0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -1921,7 +1921,7 @@ C(=O)=O
 
 $$$$
 012
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
    -1.2546   -0.2447    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -2005,7 +2005,7 @@ O=S=O
 
 $$$$
 013
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0000    0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -2191,7 +2191,7 @@ C
 
 $$$$
 014
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7637   -0.0214    0.0090 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -2374,7 +2374,7 @@ CC
 
 $$$$
 015
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
     1.2485    0.0419    0.3350 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -2566,7 +2566,7 @@ CCC
 
 $$$$
 016
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.9513    0.1170   -0.3083 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -2764,7 +2764,7 @@ CCCC
 
 $$$$
 017
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -0.4524    1.3853    0.0878 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -2938,7 +2938,7 @@ CC(C)C
 
 $$$$
 018
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
     2.3441   -0.6821   -0.1612 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -3227,15 +3227,12 @@ CCCCC
 >  <dipole moment>
 0.0812295970088
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C5H12
 
 $$$$
 019
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
     0.8794    1.2571    0.0987 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -3316,7 +3313,7 @@ CC(C)(C)C
 
 $$$$
 020
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.4884    0.6026    1.2537 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -3661,7 +3658,7 @@ C6H14
 
 $$$$
 021
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.3447    0.7977    0.0985 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -3880,7 +3877,7 @@ CCCC(C)C
 
 $$$$
 022
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -3.1327    0.5844   -0.1164 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -4208,9 +4205,6 @@ CCCCCCC
 >  <logK (TRIETHYLAMINE)>
 3.43
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C7H16
 
@@ -4222,7 +4216,7 @@ C7H16
 
 $$$$
 023
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -2.1662   -1.3470   -0.6936 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -4438,7 +4432,7 @@ CC(C)CC(C)C
 
 $$$$
 024
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -3.8732    0.9867   -0.2954 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -4781,9 +4775,6 @@ CCCCCCCC
 >  <logK (TRIETHYLAMINE)>
 3.941
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H18
 
@@ -4795,7 +4786,7 @@ C8H18
 
 $$$$
 025
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -2.0805   -0.9891   -0.9658 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5017,7 +5008,7 @@ CC(C)C(C)C(C)C
 
 $$$$
 026
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  0  0  0  0  0  0999 V2000
     4.2870    0.3952   -0.7879 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5272,7 +5263,7 @@ C9H20
 
 $$$$
 027
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  0  0  0  0  0  0999 V2000
     2.7498   -0.0994    0.0494 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5365,7 +5356,7 @@ CCC(CC)(CC)CC
 
 $$$$
 028
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -1.1718    0.5350   -0.0419 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5479,7 +5470,7 @@ C1CCCC1
 
 $$$$
 029
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     1.2376   -0.8076   -0.1112 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5827,7 +5818,7 @@ C1CCCCC1
 
 $$$$
 030
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
     2.9488    0.1781   -0.3547 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6064,7 +6055,7 @@ CCC1CCCCC1
 
 $$$$
 031
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.6645    0.0128   -0.0434 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6228,7 +6219,7 @@ C=C
 
 $$$$
 032
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -1.1303    0.1663    0.0697 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6383,7 +6374,7 @@ CC=C
 
 $$$$
 033
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.9620    0.1278    0.1063 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6508,7 +6499,7 @@ C/C=C/C
 
 $$$$
 034
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.5255   -0.3287   -0.2055 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6618,7 +6609,7 @@ C/C=C\C
 
 $$$$
 035
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
    -1.7427    0.4457    0.4396 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6760,7 +6751,7 @@ C=CC=C
 
 $$$$
 036
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   4  3  0  0  0  0  0  0  0  0999 V2000
     0.5945   -0.0189    0.4342 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6830,7 +6821,7 @@ C#C
 
 $$$$
 037
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -6980,7 +6971,7 @@ C(F)(F)(F)F
 
 $$$$
 038
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7976    0.0792   -0.0489 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7103,7 +7094,7 @@ CCCl
 
 $$$$
 039
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0047   -0.1478    0.0024 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7319,7 +7310,7 @@ CH2Cl2
 
 $$$$
 040
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
     0.0000   -0.0032    0.1058 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7493,7 +7484,7 @@ CHCl3
 
 $$$$
 041
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7674,15 +7665,12 @@ C(Cl)(Cl)(Cl)Cl
 >  <dipole moment>
 0.000316142053321
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 CCl4
 
 $$$$
 042
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.7599   -0.1557    0.1807 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7729,7 +7717,7 @@ C=C(Cl)Cl
 
 $$$$
 043
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.2356    0.0070    0.0006 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7834,7 +7822,7 @@ CI
 
 $$$$
 044
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.8260    0.0626   -0.0680 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -7972,7 +7960,7 @@ CCI
 
 $$$$
 045
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7884    0.0454    0.0571 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8077,7 +8065,7 @@ CC(F)F
 
 $$$$
 046
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -1.1531    0.0793   -0.4424 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8202,7 +8190,7 @@ COC
 
 $$$$
 047
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -2.3824   -0.3868    0.6296 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8387,7 +8375,7 @@ C4H10O
 
 $$$$
 048
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     3.3277    0.4938   -0.1349 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8506,7 +8494,7 @@ C6H14O
 
 $$$$
 049
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -1.2797   -1.7102    0.2271 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8668,9 +8656,6 @@ CC(C)OC(C)C
 >  <logK (TOLUENE)>
 2.92
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H14O
 
@@ -8682,7 +8667,7 @@ C6H14O
 
 $$$$
 050
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
     4.9663   -0.0499   -0.0205 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8798,7 +8783,7 @@ C8H18O
 
 $$$$
 051
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     2.8889   -0.3943    0.1150 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -8938,7 +8923,7 @@ C6H14O
 
 $$$$
 052
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -2.0785   -0.6244   -0.6618 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9076,9 +9061,6 @@ CCC(C)(C)OC
 >  <logK (TOLUENE)>
 3.3
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H14O
 
@@ -9090,7 +9072,7 @@ C6H14O
 
 $$$$
 053
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -0.8491    1.5955   -0.4719 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9254,7 +9236,7 @@ C5H12O
 
 $$$$
 054
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.3845   -0.9440   -0.3465 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9434,15 +9416,12 @@ C1CCOC1
 >  <dipole moment>
 1.78540797301
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C4H8O
 
 $$$$
 055
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
     1.4352    0.1149   -0.2613 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9711,15 +9690,12 @@ C1COCCO1
 >  <dipole moment>
 1.47715174125
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C4H8O2
 
 $$$$
 056
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
    -1.1433    0.1408    0.1831 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9786,7 +9762,7 @@ CCC=O
 
 $$$$
 057
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.8082   -0.0347    0.0623 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9871,7 +9847,7 @@ CCCC=O
 
 $$$$
 058
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.0325    0.1528   -0.2338 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -9950,7 +9926,7 @@ CCCCC=O
 
 $$$$
 059
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
     1.2950   -0.1425   -0.1661 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -10171,15 +10147,12 @@ CC(=O)C
 >  <dipole moment>
 2.91389982687
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C3H6O
 
 $$$$
 060
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.5966   -0.1519   -0.1281 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -10498,7 +10471,7 @@ C4H8O
 
 $$$$
 061
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -1.9897    0.4120   -0.4513 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -10634,7 +10607,7 @@ C5H10O
 
 $$$$
 062
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -2.8967    0.0810   -0.5189 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -10738,15 +10711,12 @@ CCCCC(=O)C
 >  <dipole moment>
 2.70328369275
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H12O
 
 $$$$
 063
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -2.8808    0.4532    0.0269 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -10858,7 +10828,7 @@ C7H14O
 
 $$$$
 064
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -3.1358   -0.0708   -1.3088 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -10937,7 +10907,7 @@ CCCC(=O)CCC
 
 $$$$
 065
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
     1.8327    0.1335   -0.4358 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11076,15 +11046,12 @@ CC(=O)OC
 >  <dipole moment>
 1.85457500742
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C3H6O2
 
 $$$$
 066
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
     2.0767    1.1107    0.4841 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11223,15 +11190,12 @@ CCCOC(=O)C
 >  <dipole moment>
 2.08619116063
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C5H10O2
 
 $$$$
 067
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     1.7679    1.2708   -0.0375 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11378,7 +11342,7 @@ C6H12O2
 
 $$$$
 068
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.9375    0.5471    0.1409 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11471,7 +11435,7 @@ CCC(=O)OC
 
 $$$$
 069
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -2.8351    0.2595   -0.0321 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11540,7 +11504,7 @@ CCCC(=O)OC
 
 $$$$
 070
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -3.3809   -0.4095   -0.3780 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11636,7 +11600,7 @@ CCCCC(=O)OC
 
 $$$$
 071
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -3.1680    0.0009    0.3871 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11732,7 +11696,7 @@ CCCCCC(=O)OC
 
 $$$$
 072
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.4874   -0.0149   -0.0124 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -11903,15 +11867,12 @@ CC#N
 >  <dipole moment>
 3.98989275408
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C2H3N
 
 $$$$
 073
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -1.0119    0.1729   -0.0756 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12018,7 +11979,7 @@ C3H5N
 
 $$$$
 074
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.3543    0.4105    0.2026 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12125,7 +12086,7 @@ C4H7N
 
 $$$$
 075
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   4  3  0  0  0  0  0  0  0  0999 V2000
    -0.0033   -0.0182    0.2922 N   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12207,7 +12168,7 @@ N
 
 $$$$
 076
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
     1.2092    0.1453   -0.0499 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12292,7 +12253,7 @@ CNC
 
 $$$$
 077
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
     2.1690   -0.0376   -0.1588 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12380,7 +12341,7 @@ CCNCC
 
 $$$$
 078
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -0.8929    2.3321   -0.1710 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12535,9 +12496,6 @@ CCN(CC)CC
 >  <logK (TRIETHYLAMINE)>
 3.3
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H15N
 
@@ -12549,7 +12507,7 @@ C6H15N
 
 $$$$
 079
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  6  0  0  0  0  0  0  0  0999 V2000
    -0.6604   -0.0419    0.0243 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12779,15 +12737,12 @@ C[N+](=O)[O-]
 >  <dipole moment>
 3.43125982189
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 CH3NO2
 
 $$$$
 080
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
     0.0010    0.3970   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -12885,7 +12840,7 @@ H2O
 
 $$$$
 081
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.3608   -0.0249   -0.0144 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -13130,7 +13085,7 @@ CH4O
 
 $$$$
 082
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -0.9199    0.0753    0.0095 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -13436,15 +13391,12 @@ CCO
 >  <dipole moment>
 1.65475835768
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C2H6O
 
 $$$$
 083
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
     1.3630    0.5299    0.0998 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -13636,15 +13588,12 @@ CCCO
 >  <dipole moment>
 1.44188152786
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C3H8O
 
 $$$$
 084
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.7035    0.4962    0.3288 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -13835,7 +13784,7 @@ C4H10O
 
 $$$$
 085
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     2.4952    0.6832   -0.2297 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -13990,7 +13939,7 @@ C5H12O
 
 $$$$
 086
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     2.8213    0.6551    0.3745 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14136,7 +14085,7 @@ C6H14O
 
 $$$$
 087
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
    -2.7580    0.9986   -0.1954 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14258,7 +14207,7 @@ C7H16O
 
 $$$$
 088
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
     4.4546   -0.3372    0.2358 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14363,9 +14312,6 @@ CCCCCCCCO
 >  <logK (NONANOL)>
 6.197
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H18O
 
@@ -14377,7 +14323,7 @@ C8H18O
 
 $$$$
 089
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  30 29  0  0  0  0  0  0  0  0999 V2000
    -3.0319    1.3381    0.8241 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14481,7 +14427,7 @@ C9H20O
 
 $$$$
 090
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
     0.4165   -0.4097    0.0607 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14543,7 +14489,7 @@ C(C(F)(F)F)O
 
 $$$$
 091
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -0.0464    0.2802   -0.4757 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14602,7 +14548,7 @@ C(C(F)(F)F)(C(F)(F)F)O
 
 $$$$
 092
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -0.8965   -0.3285   -0.1991 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14655,7 +14601,7 @@ CCS
 
 $$$$
 093
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  6  0  0  0  0  0  0  0  0999 V2000
     0.9508    0.4501   -1.2009 F   0  0  0  0  0  0  0  0  0  0  0  0
@@ -14821,7 +14767,7 @@ FS(F)(F)(F)(F)F
 
 $$$$
 094
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
     0.1863    1.3842    0.0088 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -15112,7 +15058,7 @@ c1ccccc1
 
 $$$$
 095
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     2.2293   -0.0436    0.0327 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -15449,15 +15395,12 @@ Cc1ccccc1
 >  <dipole moment>
 0.422223764713
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C7H8
 
 $$$$
 096
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
    -2.4551   -0.2980    0.6622 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -15644,9 +15587,6 @@ CCc1ccccc1
 >  <logK (UNDECANE)>
 3.85
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H10
 
@@ -15658,7 +15598,7 @@ C8H10
 
 $$$$
 097
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 21  0  0  0  0  0  0  0  0999 V2000
    -1.9728    0.7494   -1.5294 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -15763,7 +15703,7 @@ CCCc1ccccc1
 
 $$$$
 098
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 21  0  0  0  0  0  0  0  0999 V2000
    -1.9231    1.1945   -0.6859 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -15865,7 +15805,7 @@ CC(C)c1ccccc1
 
 $$$$
 099
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
     2.8290    0.9043   -0.5822 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -15955,7 +15895,7 @@ CCCCc1ccccc1
 
 $$$$
 100
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
    -1.3582    0.5726    1.6241 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16039,7 +15979,7 @@ CC(C)(C)c1ccccc1
 
 $$$$
 101
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  30 30  0  0  0  0  0  0  0  0999 V2000
    -4.5764    0.7402    0.5721 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16132,7 +16072,7 @@ CCCCCCc1ccccc1
 
 $$$$
 102
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.4271    0.2761   -0.0219 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16318,7 +16258,7 @@ C6H5Cl
 
 $$$$
 103
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  1  0  0  0  0  0  0  0  0999 V2000
     0.5786   -0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16370,7 +16310,7 @@ NITRIC OXIDE
 
 $$$$
 104
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  32 31  0  0  0  0  0  0  0  0999 V2000
    -4.5185   -1.1321    0.4467 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16509,9 +16449,6 @@ CCCCCCCCCC
 >  <logK (UNDECANE)>
 4.96
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C10H22
 
@@ -16523,7 +16460,7 @@ C10H22
 
 $$$$
 105
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  50 49  0  0  0  0  0  0  0  0999 V2000
    -8.1334    0.5499    0.0921 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16650,9 +16587,6 @@ CCCCCCCCCCCCCCCC
 >  <logK (ETHANOL)>
 6.57
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C16H34
 
@@ -16661,7 +16595,7 @@ C16H34
 
 $$$$
 106
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  56 55  0  0  0  0  0  0  0  0999 V2000
    -8.7979    1.1313    0.5378 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16802,7 +16736,7 @@ CCCCCCCCCCCCCCCCCC
 
 $$$$
 107
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  59 58  0  0  0  0  0  0  0  0999 V2000
     9.0642   -0.7298    0.2243 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -16946,7 +16880,7 @@ CCCCCCCCCCCCCCCCCCC
 
 $$$$
 108
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  62 61  0  0  0  0  0  0  0  0999 V2000
     9.4199   -0.5175    1.2286 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17096,7 +17030,7 @@ CCCCCCCCCCCCCCCCCCCC
 
 $$$$
 109
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.8059    0.0812    0.0897 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17213,7 +17147,7 @@ C2H5Br
 
 $$$$
 110
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
     1.2315   -0.3468   -0.2712 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17264,7 +17198,7 @@ CC(C)I
 
 $$$$
 111
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -0.3104    1.3506    0.0628 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17361,7 +17295,7 @@ CN(C)C
 
 $$$$
 112
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.2592   -0.5928   -0.0002 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17549,7 +17483,7 @@ C3H8O
 
 $$$$
 113
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
    -0.0000    0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17640,15 +17574,12 @@ C(=S)=S
 >  <dipole moment>
 6.27978496757e-09
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 CS2
 
 $$$$
 114
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     2.9250    0.1301   -0.1001 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17801,7 +17732,7 @@ C8H10
 
 $$$$
 115
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 11  0  0  0  0  0  0  0  0999 V2000
     0.0463    1.1937    0.0523 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -17926,15 +17857,12 @@ c1ccncc1
 >  <dipole moment>
 2.22340244143
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C5H5N
 
 $$$$
 116
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.8902    0.8984   -0.1079 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18106,15 +18034,12 @@ CCOC(=O)C
 >  <dipole moment>
 1.79704007907
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C4H8O2
 
 $$$$
 117
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.1155   -0.8429    0.1244 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18191,7 +18116,7 @@ C3H7NO
 
 $$$$
 118
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
     2.2400   -0.5490   -0.8739 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18338,7 +18263,7 @@ C8H18
 
 $$$$
 119
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  1  0  0  0  0  0999 V2000
    -2.9578    0.7110    1.1212 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18425,7 +18350,7 @@ CCC(C)CCC(C)C
 
 $$$$
 120
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  9  0  0  0  0  0  0  0  0999 V2000
    -0.1159    0.8555   -0.1134 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18491,7 +18416,7 @@ C1CC1
 
 $$$$
 121
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 21  0  0  0  0  0  0  0  0999 V2000
     0.4049    1.4762   -0.5577 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18578,7 +18503,7 @@ C1CCCCCC1
 
 $$$$
 122
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
     1.5703    0.4103   -0.2105 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18715,7 +18640,7 @@ CCC=C
 
 $$$$
 123
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -0.6871   -1.2093   -0.2336 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18858,7 +18783,7 @@ CC(=C)C
 
 $$$$
 124
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0657    0.0100    0.0037 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -18897,7 +18822,7 @@ CF
 
 $$$$
 125
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.9697   -0.1540    0.0225 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19044,7 +18969,7 @@ C4H9Cl
 
 $$$$
 126
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
     1.4300   -0.0572   -0.3018 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19200,7 +19125,7 @@ CC(C)(C)Cl
 
 $$$$
 127
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -0.3464    1.3902    0.3001 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19320,7 +19245,7 @@ CC(C)(C)Br
 
 $$$$
 128
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7823    0.1143   -0.0599 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19389,7 +19314,7 @@ C(C(F)(Cl)Cl)(F)(Cl)Cl
 
 $$$$
 129
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.7273    0.9288   -0.3267 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19448,7 +19373,7 @@ CC(=O)CC(=O)C
 
 $$$$
 130
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
     2.3225    0.2829    0.0415 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19513,7 +19438,7 @@ COC(=O)OC
 
 $$$$
 131
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  33 32  0  0  0  0  0  0  0  0999 V2000
     5.4376    0.3504    0.6422 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19629,7 +19554,7 @@ C10H22O
 
 $$$$
 132
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -0.2832    2.1171    0.4044 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19755,7 +19680,7 @@ C[Sn](C)(C)C
 
 $$$$
 133
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  0  0  0  0  0  0999 V2000
     3.0548   -0.5255   -0.8488 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19845,7 +19770,7 @@ CC[Pb](CC)(CC)CC
 
 $$$$
 134
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -2.1042   -0.1138    0.0561 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19920,7 +19845,7 @@ c1ccc(cc1)CCl
 
 $$$$
 135
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -2.0997    0.2101    0.1186 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -19992,7 +19917,7 @@ c1ccc(cc1)CBr
 
 $$$$
 136
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -2.0896   -0.0255    0.1244 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20065,7 +19990,7 @@ Cc1cccnc1
 
 $$$$
 137
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  9  0  0  0  0  0  0  0  0999 V2000
    -0.7179   -0.6956   -0.0511 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20128,7 +20053,7 @@ c1ccsc1
 
 $$$$
 138
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  0  0  0  0  0  0  0  0  0999 V2000
     0.3751   -0.0000   -0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20193,7 +20118,7 @@ MOLECULAR DEUTERIUM
 
 $$$$
 139
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -2.4338   -0.3419   -0.3450 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20268,7 +20193,7 @@ CCC(C)CC
 
 $$$$
 140
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.0007   -0.8084    0.2909 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20361,7 +20286,7 @@ CCC(C)(C)C
 
 $$$$
 141
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -1.1090    1.1851    0.6610 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20439,7 +20364,7 @@ CC(C)C(C)C
 
 $$$$
 142
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -2.2502    0.2622   -0.0806 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20600,7 +20525,7 @@ CCCC=C
 
 $$$$
 143
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -0.0893    1.6404    0.0830 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20713,7 +20638,7 @@ CC(C)C=C
 
 $$$$
 144
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -2.9037   -0.0377   -0.4080 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20871,7 +20796,7 @@ CCCCC=C
 
 $$$$
 145
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.5764   -0.0631    0.7407 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -20989,7 +20914,7 @@ CC(=C)C=C
 
 $$$$
 146
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7554   -0.0977    0.0819 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21128,15 +21053,12 @@ C(CCl)Cl
 >  <dipole moment>
 2.62038307297
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C2H4Cl2
 
 $$$$
 147
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.3039    0.0753    0.1098 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21244,7 +21166,7 @@ CCCCl
 
 $$$$
 148
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -1.2195   -0.0290    0.0941 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21295,7 +21217,7 @@ C=CC=O
 
 $$$$
 149
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  6  0  0  0  0  0  0  0  0999 V2000
    -0.5720   -0.0403    0.0146 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21359,7 +21281,7 @@ CN
 
 $$$$
 150
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7830   -0.1894    0.0828 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21426,15 +21348,12 @@ CC(=O)O
 >  <dipole moment>
 4.25986661414
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C2H4O2
 
 $$$$
 151
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -0.1597    1.4856   -0.0985 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21592,7 +21511,7 @@ C4H10O
 
 $$$$
 152
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  1  0  0  0  0  0999 V2000
     1.7916   -0.3107    0.1342 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21738,7 +21657,7 @@ CCC(C)O
 
 $$$$
 153
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -0.8811    1.2178    0.2527 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21860,7 +21779,7 @@ C4H10O
 
 $$$$
 154
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  0  0  0  0  0  0999 V2000
     2.6991   -0.5207   -1.6991 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -21968,7 +21887,7 @@ CC[Sn](CC)(CC)CC
 
 $$$$
 155
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
     1.1411   -0.8043   -0.0338 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22040,7 +21959,7 @@ C6F6
 
 $$$$
 156
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     2.1622    0.1287   -0.2245 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22145,7 +22064,7 @@ CC1CCCC1
 
 $$$$
 157
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -3.4172    0.2910   -0.5228 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22267,7 +22186,7 @@ CCCCCC=C
 
 $$$$
 158
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
    -2.0278   -0.6641    0.1254 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22409,9 +22328,6 @@ Cc1ccccc1C
 >  <logK (TRIBUTYL PHOSPHATE)>
 4.09
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H10
 
@@ -22423,7 +22339,7 @@ C8H10
 
 $$$$
 159
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 21  0  0  0  0  0  0  0  0999 V2000
    -1.9419    0.5800   -0.4634 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22594,7 +22510,7 @@ C7H14
 
 $$$$
 160
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.9321   -0.3978    0.1399 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22672,7 +22588,7 @@ CCCCBr
 
 $$$$
 161
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -1.7487   -1.1491    0.3459 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22782,7 +22698,7 @@ C5H12O
 
 $$$$
 162
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -1.5220   -0.2902   -0.5532 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22871,7 +22787,7 @@ C1CCC(CC1)O
 
 $$$$
 163
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -0.5722   -0.3812    0.1625 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22945,7 +22861,7 @@ C(CCl)O
 
 $$$$
 164
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  1  0  0  0  0  0999 V2000
    -0.1829   -0.3546    0.4290 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -22998,7 +22914,7 @@ C(CCl)C(O)Cl
 
 $$$$
 165
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  74 73  0  0  0  0  0  0  0  0999 V2000
    -9.3795    2.6098    1.8974 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23172,7 +23088,7 @@ CCCCCCCCCCCCCCCCCCCCCCCC
 
 $$$$
 166
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  36 35  0  0  0  0  0  0  0  0999 V2000
    -5.2237   -0.9046   -0.6925 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23276,7 +23192,7 @@ C11H24O
 
 $$$$
 167
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -2.9691   -1.2603    0.2158 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23483,7 +23399,7 @@ CC(C)CCC(C)C
 
 $$$$
 168
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.8520    0.0459    0.0041 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23573,7 +23489,7 @@ CC(Cl)(Cl)Cl
 
 $$$$
 169
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.5878    0.7612   -0.7059 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23647,7 +23563,7 @@ CC(=O)CC(=O)C
 
 $$$$
 170
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.1922    0.7009   -0.2096 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23719,7 +23635,7 @@ CCOC=O
 
 $$$$
 171
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 22  0  0  1  0  0  0  0  0999 V2000
    -1.0996    0.5574   -1.5396 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23799,7 +23715,7 @@ FERROCENE
 
 $$$$
 172
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 27  0  0  0  0  0  0  0  0999 V2000
     4.7071   -0.4937    0.1209 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23882,7 +23798,7 @@ c1ccc(cc1)/C=C/c2ccccc2
 
 $$$$
 173
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
     2.2232   -0.1598   -0.0361 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -23959,15 +23875,12 @@ Cc1ccccn1
 >  <dipole moment>
 1.83268575344
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H7N
 
 $$$$
 174
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  71 70  0  0  0  0  0  0  0  0999 V2000
     9.3188    1.9713   -1.2404 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24135,7 +24048,7 @@ CCCCCCCCCCCCCCCCCCCCCCC
 
 $$$$
 175
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
     2.0346    0.2676   -0.4270 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24231,7 +24144,7 @@ CCC(C)C
 
 $$$$
 176
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.9565   -0.5752    0.2721 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24326,7 +24239,7 @@ CC=C(C)C
 
 $$$$
 177
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
     3.4636    1.0149   -0.4230 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24404,7 +24317,7 @@ CCc1ccc(cc1)CC
 
 $$$$
 178
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
    -3.8061   -0.3919    0.2542 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24541,7 +24454,7 @@ CCCCCCC=C
 
 $$$$
 179
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
    -3.1207    0.1681   -1.1007 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24627,7 +24540,7 @@ CCCCCCCC=C
 
 $$$$
 180
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -1.0556    0.7373   -0.3382 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24776,7 +24689,7 @@ C1CCC=CC1
 
 $$$$
 181
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.1498   -0.0052    0.0061 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24845,7 +24758,7 @@ CCl
 
 $$$$
 182
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.8184   -0.1456   -0.0421 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24905,7 +24818,7 @@ CC(Cl)Cl
 
 $$$$
 183
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7489   -0.0679   -0.2437 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -24962,7 +24875,7 @@ C(C(Cl)Cl)Cl
 
 $$$$
 184
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7965   -0.0054   -0.0188 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25007,7 +24920,7 @@ C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl
 
 $$$$
 185
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  1  0  0  0  0  0999 V2000
    -1.3044    0.3186    0.1041 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25079,7 +24992,7 @@ CC(CCl)Cl
 
 $$$$
 186
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
     0.6583   -0.1415    0.1515 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25123,7 +25036,7 @@ C(=C\Cl)\Cl
 
 $$$$
 187
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.6993   -0.0523    0.1896 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25200,7 +25113,7 @@ C(=C(Cl)Cl)Cl
 
 $$$$
 188
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
     0.6682    0.0160   -0.1034 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25262,7 +25175,7 @@ C(=C(Cl)Cl)(Cl)Cl
 
 $$$$
 189
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0065   -0.1823    0.0008 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25304,7 +25217,7 @@ C(Br)Br
 
 $$$$
 190
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0059    0.0524    0.1150 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25343,7 +25256,7 @@ C(Cl)(Br)Br
 
 $$$$
 191
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
     2.4646    0.7119   -1.2475 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25426,7 +25339,7 @@ CC(C)COCC(C)C
 
 $$$$
 192
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  33 32  0  0  0  0  0  0  0  0999 V2000
     5.8502   -0.2139    0.1710 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25521,7 +25434,7 @@ CCCCCOCCCCC
 
 $$$$
 193
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -0.3730    1.2108    0.1264 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25595,7 +25508,7 @@ C5H10O
 
 $$$$
 194
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
     2.4130    0.8751   -0.0284 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25666,15 +25579,12 @@ CCC(=O)CC
 >  <dipole moment>
 2.70396838651
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C5H10O
 
 $$$$
 195
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -1.2177    1.2462    0.1952 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25741,7 +25651,7 @@ CC(C)C(=O)C
 
 $$$$
 196
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
     0.6202   -0.9965    0.3392 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25817,7 +25727,7 @@ C1CCC(=O)C1
 
 $$$$
 197
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -1.0309   -0.1271   -0.0503 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25901,7 +25811,7 @@ COC=O
 
 $$$$
 198
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.6663    0.6356    0.4522 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -25961,7 +25871,7 @@ CCCOC=O
 
 $$$$
 199
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -3.7644   -0.1658    0.3182 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26075,7 +25985,7 @@ C7H14O2
 
 $$$$
 200
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -2.8051    1.1687    0.9737 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26168,7 +26078,7 @@ C8H16O2
 
 $$$$
 201
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -1.7242   -1.0231   -0.4290 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26240,7 +26150,7 @@ C5H10O2
 
 $$$$
 202
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -2.4223    0.8694    0.6530 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26318,7 +26228,7 @@ C6H12O2
 
 $$$$
 203
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -1.2826    0.7907   -1.1064 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26396,7 +26306,7 @@ CC(C)CCOC(=O)C
 
 $$$$
 204
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -2.8621    0.1905    0.1799 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26474,7 +26384,7 @@ CCC(=O)OCC
 
 $$$$
 205
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -3.4205   -0.7270    0.3163 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26561,7 +26471,7 @@ C6H12O2
 
 $$$$
 206
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
     1.2281    0.0859    0.5906 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26614,7 +26524,7 @@ CC(C)C#N
 
 $$$$
 207
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -1.6026   -0.7187    0.3836 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26679,7 +26589,7 @@ CCCCC#N
 
 $$$$
 208
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -2.4349    0.2763   -0.0396 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26744,7 +26654,7 @@ CCCCCC#N
 
 $$$$
 209
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.3924    0.0706    0.3125 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26847,7 +26757,7 @@ CCCCN
 
 $$$$
 210
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
     2.5527   -1.2080   -0.0336 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -26929,7 +26839,7 @@ CCCNCCC
 
 $$$$
 211
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
    -1.1074   -0.4048   -0.1201 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27009,15 +26919,12 @@ CC[N+](=O)[O-]
 >  <dipole moment>
 3.6277709221
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C2H5NO2
 
 $$$$
 212
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.3531    0.6309    0.4110 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27093,7 +27000,7 @@ CCC[N+](=O)[O-]
 
 $$$$
 213
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  51 50  0  0  0  0  0  0  0  0999 V2000
     7.4886    0.7704    1.4692 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27221,7 +27128,7 @@ CCCCCCCCCCCCCCCCO
 
 $$$$
 214
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  57 56  0  0  0  0  0  0  0  0999 V2000
    -7.9636    0.1335   -2.4237 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27361,7 +27268,7 @@ CCCCCCCCCCCCCCCCCCO
 
 $$$$
 215
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  63 62  0  0  0  0  0  0  0  0999 V2000
    -5.7163   -2.6496   -0.7890 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27513,7 +27420,7 @@ CCCCCCCCCCCCCCCCCCCCO
 
 $$$$
 216
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
    -1.3598    0.1542    0.0708 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27570,15 +27477,12 @@ CS(=O)C
 >  <dipole moment>
 3.78983838466
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C2H6OS
 
 $$$$
 217
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     2.4604   -1.0556   -0.0552 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27714,9 +27618,6 @@ Cc1cccc(c1)C
 >  <logK (TRIBUTYL PHOSPHATE)>
 3.98
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H10
 
@@ -27728,7 +27629,7 @@ C8H10
 
 $$$$
 218
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
     2.6898   -0.1667   -0.0843 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27811,7 +27712,7 @@ C7H8O
 
 $$$$
 219
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -1.7234    0.1391   -0.0078 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27886,15 +27787,12 @@ c1ccc(cc1)C#N
 >  <dipole moment>
 4.63387051689
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C7H5N
 
 $$$$
 220
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -1.0040   -0.9125    0.0187 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -27967,7 +27865,7 @@ C1CCNCC1
 
 $$$$
 221
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     1.8190    0.1303   -0.3503 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28031,7 +27929,7 @@ CN1CCCC1
 
 $$$$
 222
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
     0.7160    0.9422    0.1004 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28089,7 +27987,7 @@ C1CCNC1
 
 $$$$
 223
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.2559   -0.7159    0.0058 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28155,7 +28053,7 @@ c1cc(cc(c1)Cl)Cl
 
 $$$$
 224
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     1.7028   -0.3437    0.9139 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28238,7 +28136,7 @@ C5H12O
 
 $$$$
 225
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
    -0.9917   -1.1371    1.0471 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28324,7 +28222,7 @@ C6H14O
 
 $$$$
 226
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
    -0.0153    0.6280    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28398,7 +28296,7 @@ S
 
 $$$$
 227
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -3.0111    0.0340   -0.4036 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28466,7 +28364,7 @@ CCC/C=C/C
 
 $$$$
 228
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -2.6412    0.6379    0.5667 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28537,7 +28435,7 @@ CCC/C=C\C
 
 $$$$
 229
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
     2.4072    0.5478   -0.5838 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28623,7 +28521,7 @@ CC(=C)CC(C)(C)C
 
 $$$$
 230
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.2795    0.6161   -0.0005 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28731,7 +28629,7 @@ C6H5F
 
 $$$$
 231
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.4263    0.3405   -0.0122 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28834,15 +28732,12 @@ c1ccc(cc1)Br
 >  <dipole moment>
 1.64978243682
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H5Br
 
 $$$$
 232
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.8996    0.1190   -0.0569 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -28945,7 +28840,7 @@ C6H7N
 
 $$$$
 233
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.8556    0.1458   -0.4294 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29025,15 +28920,12 @@ c1ccc(cc1)[N+](=O)[O-]
 >  <dipole moment>
 4.54241032133
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H5NO2
 
 $$$$
 234
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -2.2537   -0.0437   -0.0460 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29111,15 +29003,12 @@ c1ccc(cc1)CO
 >  <dipole moment>
 1.52892534785
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C7H8O
 
 $$$$
 235
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 19  0  0  0  0  0  0  0  0999 V2000
    -2.4754    0.5465    0.0011 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29201,7 +29090,7 @@ c1ccc2ccccc2c1
 
 $$$$
 236
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  1  0  0  0  0  0999 V2000
    -0.9920    0.9767   -0.1864 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29256,7 +29145,7 @@ CC(CO)O
 
 $$$$
 237
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  7  0  0  0  0  0  0  0  0999 V2000
    -0.7343   -0.0186   -0.0431 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29300,7 +29189,7 @@ C1CO1
 
 $$$$
 238
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  1  0  0  0  0  0999 V2000
     3.6536    0.2760   -0.0541 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29386,7 +29275,7 @@ C8H18O
 
 $$$$
 239
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
     3.3334   -0.0927    0.2298 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29460,7 +29349,7 @@ C6H14O
 
 $$$$
 240
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
    -2.5082   -0.0047    0.5718 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29537,7 +29426,7 @@ C6H14O
 
 $$$$
 241
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
    -3.8198    0.2497   -0.6048 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29617,7 +29506,7 @@ C7H16O
 
 $$$$
 242
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
     2.7593    1.0367   -0.1131 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29697,7 +29586,7 @@ C7H16O
 
 $$$$
 243
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  1  0  0  0  0  0999 V2000
     3.9663   -0.7710    0.6242 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29786,7 +29675,7 @@ C8H18O
 
 $$$$
 244
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  1  0  0  0  0  0  0  0  0999 V2000
     1.3487    0.0000    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29834,7 +29723,7 @@ II
 
 $$$$
 245
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  35 34  0  0  0  0  0  0  0  0999 V2000
     4.8056    0.9315    0.0749 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -29946,9 +29835,6 @@ CCCCCCCCCCC
 >  <logK (UNDECANE)>
 5.48
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C11H24
 
@@ -29960,7 +29846,7 @@ C11H24
 
 $$$$
 246
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  38 37  0  0  0  0  0  0  0  0999 V2000
     5.3485   -0.1265    0.7060 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30066,9 +29952,6 @@ CCCCCCCCCCCC
 >  <logK (UNDECANE)>
 6.0
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C12H26
 
@@ -30080,7 +29963,7 @@ C12H26
 
 $$$$
 247
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -0.0161   -0.1523   -0.5424 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30140,7 +30023,7 @@ C(CCl)CCl
 
 $$$$
 248
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -0.7325    0.0263   -0.1346 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30203,7 +30086,7 @@ C(CCCl)CCl
 
 $$$$
 249
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -2.4280    0.1017    0.4145 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30287,7 +30170,7 @@ CCCCCCl
 
 $$$$
 250
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
     1.8554    0.5026   -1.1700 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30369,7 +30252,7 @@ CC(=O)C(C)(C)C
 
 $$$$
 251
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -0.4255   -1.0364    0.8287 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30446,15 +30329,12 @@ C1CCC(=O)CC1
 >  <dipole moment>
 3.32714473324
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C6H10O
 
 $$$$
 252
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
    -1.0376    0.2995   -0.0729 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30533,7 +30413,7 @@ CCN
 
 $$$$
 253
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.3799    0.6588    0.2185 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30624,7 +30504,7 @@ CCCN
 
 $$$$
 254
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.1182   -0.7340    0.1439 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30682,7 +30562,7 @@ CC(C)N
 
 $$$$
 255
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.3709    0.0371   -0.3009 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30749,7 +30629,7 @@ CCCC[N+](=O)[O-]
 
 $$$$
 256
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  39 38  0  0  0  0  0  0  0  0999 V2000
    -4.2451   -2.4062    0.6784 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30859,7 +30739,7 @@ C12H26O
 
 $$$$
 257
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
     2.2855    0.5006   -0.2934 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -30942,15 +30822,12 @@ CCOCCO
 >  <dipole moment>
 2.41128438791
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C4H10O2
 
 $$$$
 258
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
     1.3545   -0.1595    0.2290 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31003,7 +30880,7 @@ CSC
 
 $$$$
 259
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  0  0  0  0  0  0999 V2000
    -1.1846    2.6232    0.3787 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31099,7 +30976,7 @@ CC[Si](CC)(CC)CC
 
 $$$$
 260
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   1  0  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000    0.0000 Hg  0  0  0  0  0 15  0  0  0  0  0  0
@@ -31127,7 +31004,7 @@ MERCURY
 
 $$$$
 261
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.1424    0.9370   -0.0178 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31217,7 +31094,7 @@ c1ccc(c(c1)Cl)Cl
 
 $$$$
 262
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.9133   -0.0729   -0.0783 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31287,7 +31164,7 @@ c1ccc(cc1)C=O
 
 $$$$
 263
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.7056   -0.3242    0.0921 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31361,9 +31238,6 @@ CC(=O)c1ccccc1
 >  <logK (HEXANE)>
 4.434
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H8O
 
@@ -31375,7 +31249,7 @@ C8H8O
 
 $$$$
 264
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     1.7690   -0.8264    0.8678 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31460,7 +31334,7 @@ Cc1ccccc1N
 
 $$$$
 265
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -2.6473    0.0284   -0.6623 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31545,7 +31419,7 @@ Cc1ccc(cc1)N
 
 $$$$
 266
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
     0.0744    1.7986   -0.1615 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31633,9 +31507,6 @@ C1CCCCCCC1
 >  <logK (SULFOLANE)>
 2.796
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C8H16
 
@@ -31647,7 +31518,7 @@ C8H16
 
 $$$$
 267
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  30 30  0  0  0  0  0  0  0  0999 V2000
    -2.0962   -0.4491   -1.0097 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31740,7 +31611,7 @@ C1CCCCCCCCC1
 
 $$$$
 268
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 29  0  0  1  0  0  0  0  0999 V2000
     2.1726   -1.1080    0.2221 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31830,7 +31701,7 @@ C1C[C@@H]2[C@@H](CCCC2)CC1
 
 $$$$
 269
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7747   -0.0347   -0.0007 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31887,7 +31758,7 @@ CCF
 
 $$$$
 270
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0018   -0.0832    0.0033 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31938,7 +31809,7 @@ C(F)(F)(Cl)Cl
 
 $$$$
 271
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0761    0.0002    0.0048 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -31992,7 +31863,7 @@ C(F)(F)(F)Cl
 
 $$$$
 272
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 24  0  0  0  0  0  0  0  0999 V2000
    -2.8206    0.9468    1.2776 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32089,7 +31960,7 @@ CCCCCCC(=O)C
 
 $$$$
 273
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  1  0  0  0  0  0999 V2000
     1.6933   -0.4688    0.4394 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32150,7 +32021,7 @@ CCC(C)N
 
 $$$$
 274
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
     2.3551    0.1351    0.3124 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32220,7 +32091,7 @@ CCCCCN
 
 $$$$
 275
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
     3.0432   -0.6676   -0.3264 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32296,7 +32167,7 @@ CCCCCCN
 
 $$$$
 276
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 24  0  0  0  0  0  0  0  0999 V2000
     3.8021    0.2780   -0.4197 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32378,7 +32249,7 @@ CCCCCCCN
 
 $$$$
 277
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 27  0  0  0  0  0  0  0  0999 V2000
    -4.0384    0.0748    0.9103 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32466,7 +32337,7 @@ CCCCCCCCN
 
 $$$$
 278
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 27  0  0  0  0  0  0  0  0999 V2000
    -3.8556    0.3804   -1.0162 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32551,7 +32422,7 @@ CCCCNCCCC
 
 $$$$
 279
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     1.4586    0.4973    0.4251 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32615,7 +32486,7 @@ C1CCC(C1)N
 
 $$$$
 280
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     0.1297    1.3707   -0.3093 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32676,7 +32547,7 @@ CC(C)[N+](=O)[O-]
 
 $$$$
 281
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
     0.6311   -1.2473    0.0695 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32739,7 +32610,7 @@ c1cc(ccc1Cl)Cl
 
 $$$$
 282
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
     0.2219    1.3877   -0.0319 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32799,7 +32670,7 @@ c1(c(c(c(c(c1Cl)Cl)Cl)Cl)Cl)Cl
 
 $$$$
 283
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.4830    0.0348   -0.0086 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32883,7 +32754,7 @@ C6H5I
 
 $$$$
 284
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -2.3365    0.1767    0.0501 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -32960,7 +32831,7 @@ C7H8O
 
 $$$$
 285
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -2.4865   -0.1634   -0.0369 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33043,7 +32914,7 @@ Cc1ccc(cc1)O
 
 $$$$
 286
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -0.3917    1.5578    0.2934 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33104,7 +32975,7 @@ c1cc(cc(c1)O)O
 
 $$$$
 287
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  1  0  0  0  0  0999 V2000
     3.8682    0.4745   -0.1022 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33185,7 +33056,7 @@ CCCCC(C)CC
 
 $$$$
 288
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -2.6191    0.7886    0.7183 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33258,7 +33129,7 @@ CCCCCC=O
 
 $$$$
 289
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -2.1492    0.9055   -0.2731 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33358,7 +33229,7 @@ C6H12O
 
 $$$$
 290
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
     2.8146   -0.0126    0.9190 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33435,7 +33306,7 @@ CCCC(C)CO
 
 $$$$
 291
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
    -2.2276    1.1373   -0.3342 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33512,7 +33383,7 @@ CCC(C)CCO
 
 $$$$
 292
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     2.7726    0.0415    0.4723 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33595,7 +33466,7 @@ CCCC(C)(C)O
 
 $$$$
 293
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
     2.3232   -0.8740   -0.4022 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33672,7 +33543,7 @@ CCC(C)C(C)O
 
 $$$$
 294
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -2.0318   -0.0674    1.5467 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33752,7 +33623,7 @@ CC(C)CCCO
 
 $$$$
 295
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  1  0  0  0  0  0999 V2000
     2.6602   -0.3348    0.4478 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33835,7 +33706,7 @@ CCC(C(C)C)O
 
 $$$$
 296
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     1.2716    1.2797    0.5319 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33915,7 +33786,7 @@ CC(C)C(C)(C)O
 
 $$$$
 297
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -1.5321   -0.6409   -1.1539 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -33995,7 +33866,7 @@ CC(C)(C)CCO
 
 $$$$
 298
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
     2.6222    0.9978   -0.3205 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34081,7 +33952,7 @@ CCCC(C)(CC)O
 
 $$$$
 299
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
     3.1321   -0.2076    0.0517 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34167,7 +34038,7 @@ CCCC(C(C)C)O
 
 $$$$
 300
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
     2.9908    0.6852   -0.1081 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34253,7 +34124,7 @@ CCCC(C)C(C)O
 
 $$$$
 301
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
     2.9335    0.7779    0.3703 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34339,7 +34210,7 @@ CCCCC(C)(C)O
 
 $$$$
 302
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
     2.1580   -0.6993    1.3634 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34422,7 +34293,7 @@ CC(C)CCC(C)O
 
 $$$$
 303
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
    -2.2988   -0.7220    0.1483 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34508,7 +34379,7 @@ CCC(CC)(CC)O
 
 $$$$
 304
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
     2.6890   -1.1660    0.2459 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34594,7 +34465,7 @@ CC(CC(C)(C)C)O
 
 $$$$
 305
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
    -2.1484   -1.2730    0.0445 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34680,7 +34551,7 @@ CCC(C)(C(C)C)O
 
 $$$$
 306
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  1  0  0  0  0  0999 V2000
     2.3001   -0.6025    0.7410 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34766,7 +34637,7 @@ CCC(C(C)(C)C)O
 
 $$$$
 307
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 11  0  0  0  0  0  0  0  0999 V2000
    -1.5513    0.5161    0.0159 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34833,7 +34704,7 @@ c1cc(oc1)C=O
 
 $$$$
 308
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -2.2067    0.8301    0.3688 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34903,7 +34774,7 @@ Cc1ccc(o1)C=O
 
 $$$$
 309
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7653   -0.0483   -0.0907 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -34960,7 +34831,7 @@ C(C(Cl)Cl)(Cl)Cl
 
 $$$$
 310
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.5603   -0.3587   -0.0072 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35010,7 +34881,7 @@ C(=C/Cl)\Cl
 
 $$$$
 311
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
     0.0014   -0.0016    0.1236 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35052,7 +34923,7 @@ C(Br)(Br)Br
 
 $$$$
 312
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -0.9132    0.1841    0.2995 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35111,7 +34982,7 @@ C(CCl)OCCCl
 
 $$$$
 313
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -1.8468   -0.8159   -0.5019 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35174,7 +35045,7 @@ C(CCl)OOOCCCl
 
 $$$$
 314
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  6  0  0  0  0  0  0  0  0999 V2000
    -1.0336    0.2261    0.0729 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35217,7 +35088,7 @@ C=CC#N
 
 $$$$
 315
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     3.2660   -0.7619    0.9373 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35283,7 +35154,7 @@ CC(=O)OCc1ccco1
 
 $$$$
 316
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.4529    0.1477   -0.8364 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35356,7 +35227,7 @@ C/C=C\C=C
 
 $$$$
 317
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     2.3246    0.2563   -0.2841 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35432,7 +35303,7 @@ C/C=C/C=C
 
 $$$$
 318
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.2178   -0.2701   -0.2203 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35491,7 +35362,7 @@ C(C(F)(F)F)OCC(F)(F)F
 
 $$$$
 319
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     2.4943    0.5194   -0.4172 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35556,7 +35427,7 @@ CCC(=O)CC(=O)C
 
 $$$$
 320
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -3.3321    0.1267   -0.6088 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35627,7 +35498,7 @@ CCCC(=O)CC(=O)C
 
 $$$$
 321
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
    -4.0249    0.1353    0.4349 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35704,7 +35575,7 @@ CCCCC(=O)CC(=O)C
 
 $$$$
 322
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
     3.8730   -0.0548    0.0679 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35787,7 +35658,7 @@ CCCCCC(=O)CC(=O)C
 
 $$$$
 323
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
     3.6038    0.4649    0.6361 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35864,7 +35735,7 @@ CCCC(=O)CC(=O)CC
 
 $$$$
 324
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
     4.0528    0.3475   -0.7753 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -35950,7 +35821,7 @@ CCCC(=O)CC(=O)CCC
 
 $$$$
 325
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     3.1276   -0.3315   -0.0564 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36021,7 +35892,7 @@ CCOC(=O)OCC
 
 $$$$
 326
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  1  0  0  0  0  0999 V2000
     2.6000   -1.0037   -1.3099 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36104,7 +35975,7 @@ CCC(CC(C)C)CO
 
 $$$$
 327
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  0  0  0  0  0  0999 V2000
     3.4812   -0.0686    0.4791 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36187,7 +36058,7 @@ CCCC(CC)(CC)O
 
 $$$$
 328
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 26  0  0  1  0  0  0  0  0999 V2000
    -1.5272    1.7619    0.4425 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36270,7 +36141,7 @@ CCC(CC)C(CC)O
 
 $$$$
 329
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
     2.7507    0.2932   -0.5545 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36343,7 +36214,7 @@ C5H12O2
 
 $$$$
 330
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
     2.9911   -0.0478   -1.1241 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36428,7 +36299,7 @@ C6H14O2
 
 $$$$
 331
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 24  0  0  0  0  0  0  0  0999 V2000
    -3.6948   -0.6586    0.7937 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36507,7 +36378,7 @@ CCCCCOCCO
 
 $$$$
 332
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -0.3556    2.5291   -0.2125 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36573,7 +36444,7 @@ COP(=O)(OC)OC
 
 $$$$
 333
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
     2.7514   -1.2273    1.6530 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36657,7 +36528,7 @@ CCOP(=O)(OCC)OCC
 
 $$$$
 334
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  35 34  0  0  0  0  0  0  0  0999 V2000
    -1.5496    4.4165   -1.2496 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36759,7 +36630,7 @@ CCCOP(=O)(OCCC)OCCC
 
 $$$$
 335
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  44 43  0  0  0  0  0  0  0  0999 V2000
     1.4329    4.6428   -0.4821 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36882,7 +36753,7 @@ C12H27O4P
 
 $$$$
 336
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   2  1  0  0  0  0  0  0  0  0999 V2000
     1.0031    0.0000   -0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
@@ -36930,7 +36801,7 @@ ClCl
 
 $$$$
 337
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  6  0  0  0  0  0  0  0  0999 V2000
    -0.9505    0.0466    0.0069 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -36988,7 +36859,7 @@ CC#C
 
 $$$$
 338
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
    -1.1277    0.6717   -0.3491 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37052,7 +36923,7 @@ CCC#C
 
 $$$$
 339
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -1.4242   -0.3045    0.3020 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37112,7 +36983,7 @@ C=CC#C
 
 $$$$
 340
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.6018   -0.3523    0.1452 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37168,7 +37039,7 @@ CCCS
 
 $$$$
 341
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -1.9366   -0.8018   -0.3680 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37245,7 +37116,7 @@ Cc1ccccc1O
 
 $$$$
 342
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 18  0  0  0  0  0  0  0  0999 V2000
     2.3345    0.6136    0.0377 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37313,7 +37184,7 @@ c1ccc2c(c1)cccn2
 
 $$$$
 343
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     3.4477   -0.0386    0.2818 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37388,7 +37259,7 @@ COC(=O)c1ccccc1
 
 $$$$
 344
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.9811   -0.3923   -0.0513 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37455,7 +37326,7 @@ Cc1ccncc1
 
 $$$$
 345
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.3026   -1.2764   -0.0192 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37522,7 +37393,7 @@ Cc1cccc(n1)C
 
 $$$$
 346
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -0.6961    0.7206    0.0116 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37579,7 +37450,7 @@ C4H6O2
 
 $$$$
 347
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -1.4332    0.8239   -0.9110 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37642,7 +37513,7 @@ C[Si](C)(C)C
 
 $$$$
 348
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -1.4850    0.6000   -0.2682 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37703,7 +37574,7 @@ CCCC#C
 
 $$$$
 349
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.2077   -0.1620    0.3632 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37770,7 +37641,7 @@ CCCCC#C
 
 $$$$
 350
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -2.7097    0.9736    0.4012 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37855,7 +37726,7 @@ CCCCCC#C
 
 $$$$
 351
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -3.0961    0.4578   -0.5615 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -37940,7 +37811,7 @@ CCCCCCC#C
 
 $$$$
 352
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 24  0  0  0  0  0  0  0  0999 V2000
    -3.6211    1.2626    0.6567 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38019,7 +37890,7 @@ CCCCCCCC#C
 
 $$$$
 353
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 27  0  0  0  0  0  0  0  0999 V2000
     3.8184    0.3700    0.4520 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38103,7 +37974,7 @@ CCCCCc1ccccc1
 
 $$$$
 354
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 21  0  0  0  0  0  0  0  0999 V2000
     2.8481   -0.6243    0.1074 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38178,7 +38049,7 @@ Cc1cc(cc(c1)C)C
 
 $$$$
 355
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 27  0  0  0  0  0  0  0  0999 V2000
     3.7948   -0.2197    1.9365 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38266,7 +38137,7 @@ CCCCCCCC(=O)C
 
 $$$$
 356
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  31 30  0  0  0  0  0  0  0  0999 V2000
    -4.6408    0.4980    0.0012 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38357,7 +38228,7 @@ CCCCCCCCC(=O)C
 
 $$$$
 357
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  34 33  0  0  0  0  0  0  0  0999 V2000
    -4.4346    0.9194    1.1436 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38454,7 +38325,7 @@ CCCCCCCCCC(=O)C
 
 $$$$
 358
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 27  0  0  0  0  0  0  0  0999 V2000
    -3.9315    0.5022    0.7053 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38539,7 +38410,7 @@ CCCCC(=O)CCCC
 
 $$$$
 359
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   4  3  0  0  0  0  0  0  0  0999 V2000
    -0.0055    0.0002   -0.0005 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38576,7 +38447,7 @@ C=O
 
 $$$$
 360
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   7  6  0  0  0  0  0  0  0  0999 V2000
    -0.6474   -0.0687    0.0072 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38649,7 +38520,7 @@ CC=O
 
 $$$$
 361
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
     3.4780    0.1881    0.8811 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38722,7 +38593,7 @@ CCCCCCC=O
 
 $$$$
 362
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 24  0  0  0  0  0  0  0  0999 V2000
     3.6616   -0.3235    0.4673 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38804,7 +38675,7 @@ CCCCCCCC=O
 
 $$$$
 363
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 27  0  0  0  0  0  0  0  0999 V2000
    -4.2507    0.8089   -0.3015 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38892,7 +38763,7 @@ CCCCCCCCC=O
 
 $$$$
 364
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     1.3861   -0.0232    0.2205 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -38983,7 +38854,7 @@ CC(C)C=O
 
 $$$$
 365
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.7730   -0.0597    0.2111 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39040,7 +38911,7 @@ C/C=C/C=O
 
 $$$$
 366
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
     3.3588   -0.0279   -0.0829 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39114,7 +38985,7 @@ C8H10O
 
 $$$$
 367
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.8529   -0.1897    0.4671 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39183,7 +39054,7 @@ CCCOC(=O)CC
 
 $$$$
 368
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
     2.5192    0.3152   -1.3903 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39258,7 +39129,7 @@ CCCC(=O)OCCC
 
 $$$$
 369
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -3.8448    0.6759   -1.0009 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39339,7 +39210,7 @@ CCCCCOC(=O)CC
 
 $$$$
 370
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -0.6342    1.4446   -0.3277 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39396,7 +39267,7 @@ CC(C)OC=O
 
 $$$$
 371
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.6237    0.8340    0.3518 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39465,7 +39336,7 @@ CCC(=O)OC(C)C
 
 $$$$
 372
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -0.9175    1.3985    0.4577 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39528,7 +39399,7 @@ CC(C)COC=O
 
 $$$$
 373
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -2.3654   -0.7007    0.3292 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39597,7 +39468,7 @@ CC(C)CCOC=O
 
 $$$$
 374
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
     1.9742   -0.1064    1.9994 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39678,7 +39549,7 @@ CC(C)COC(=O)C(C)C
 
 $$$$
 375
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  1  0  0  0  0  0999 V2000
     2.5272   -0.6954    0.0959 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39744,15 +39615,12 @@ CCCC(C)O
 >  <dipole moment>
 1.67149372113
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C5H12O
 
 $$$$
 376
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  1  0  0  0  0  0999 V2000
    -1.7952   -0.8847   -0.8072 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39820,7 +39688,7 @@ C5H12O
 
 $$$$
 377
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -1.2646   -0.5873    0.1489 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39888,7 +39756,7 @@ C1CCC(C1)O
 
 $$$$
 378
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
     1.5565    0.1468    0.0123 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -39962,15 +39830,12 @@ C=CCO
 >  <dipole moment>
 1.50773931485
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C3H6O
 
 $$$$
 379
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -1.6530   -0.1369   -0.1678 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40029,7 +39894,7 @@ c1ccc(cc1)O
 
 $$$$
 380
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -1.1875   -1.4560    0.1969 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40092,7 +39957,7 @@ c1ccc(c(c1)[N+](=O)[O-])O
 
 $$$$
 381
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.9325   -1.1685   -0.3918 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40151,7 +40016,7 @@ c1ccc(c(c1)O)Cl
 
 $$$$
 382
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.4426    0.0389   -0.0081 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40217,7 +40082,7 @@ CCC(=O)O
 
 $$$$
 383
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.5804    0.7505    0.2913 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40286,7 +40151,7 @@ CCCC(=O)O
 
 $$$$
 384
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -2.3407    0.7063   -0.5786 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40364,7 +40229,7 @@ CCCCC(=O)O
 
 $$$$
 385
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -2.7723   -0.3365   -1.2000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40442,7 +40307,7 @@ CCCCCC(=O)O
 
 $$$$
 386
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
     3.5862    0.3818    0.1633 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40514,7 +40379,7 @@ CCCCCCC(=O)O
 
 $$$$
 387
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -3.7625    0.6429   -1.0451 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40598,7 +40463,7 @@ CCCCCCCC(=O)O
 
 $$$$
 388
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -1.7192   -0.4565   -0.7287 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40667,7 +40532,7 @@ CC(C)CC(=O)O
 
 $$$$
 389
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -0.8362   -0.9750   -0.6904 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40728,7 +40593,7 @@ CC(C)(C)N
 
 $$$$
 390
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -2.0033   -0.9188    0.3624 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40804,7 +40669,7 @@ CC(C)NC(C)C
 
 $$$$
 391
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  0  0  0  0  0  0999 V2000
    -1.9492    1.3463   -0.3769 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40877,7 +40742,7 @@ CN(C)c1ccccc1
 
 $$$$
 392
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -2.5383    0.5879    0.5043 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -40944,7 +40809,7 @@ CCc1ccccn1
 
 $$$$
 393
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.3625    0.5295    0.0232 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41008,7 +40873,7 @@ CCc1cccnc1
 
 $$$$
 394
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.2935   -0.0701   -0.5787 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41072,7 +40937,7 @@ CCc1ccncc1
 
 $$$$
 395
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -2.3192   -1.0300   -0.2007 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41136,7 +41001,7 @@ Cc1ccnc(c1)C
 
 $$$$
 396
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.8380   -0.0751   -0.0008 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41200,7 +41065,7 @@ Cc1ccc(nc1)C
 
 $$$$
 397
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -0.0583    1.9333   -0.3411 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41264,7 +41129,7 @@ Cc1ccncc1C
 
 $$$$
 398
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -2.5487   -0.4817   -0.4298 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41328,7 +41193,7 @@ Cc1cc(cnc1)C
 
 $$$$
 399
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 23  0  0  0  0  0  0  0  0999 V2000
    -1.5201   -0.2834   -1.1477 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41404,7 +41269,7 @@ CC(C)(C)c1ccncc1
 
 $$$$
 400
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -2.9992    0.1639   -0.1955 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41471,7 +41336,7 @@ CCCCC[N+](=O)[O-]
 
 $$$$
 401
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -1.9107    1.0054    0.2527 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41541,7 +41406,7 @@ Cc1ccccc1[N+](=O)[O-]
 
 $$$$
 402
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.4868   -0.2581    0.5112 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41608,7 +41473,7 @@ Cc1cccc(c1)[N+](=O)[O-]
 
 $$$$
 403
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.7262    0.1007   -0.1664 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41678,7 +41543,7 @@ Cc1ccc(cc1)[N+](=O)[O-]
 
 $$$$
 404
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
    -2.4800    0.6579    0.7330 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41753,7 +41618,7 @@ CCCCCCCl
 
 $$$$
 405
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -3.2718   -0.7116   -0.3133 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41828,7 +41693,7 @@ CCCCCCCCl
 
 $$$$
 406
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.2021    0.4322   -0.2447 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41882,7 +41747,7 @@ CC(C)Cl
 
 $$$$
 407
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
     1.4721   -0.2458   -0.0457 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41945,7 +41810,7 @@ CC(C)CCl
 
 $$$$
 408
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7750   -0.2050   -0.1477 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -41990,7 +41855,7 @@ C(C(Cl)(Cl)Cl)Cl
 
 $$$$
 409
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.1146    0.3783   -0.5868 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42047,7 +41912,7 @@ CCCBr
 
 $$$$
 410
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -2.1586    0.0963   -0.6594 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42110,7 +41975,7 @@ CCCCCBr
 
 $$$$
 411
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.6247   -0.5711   -0.4275 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42179,7 +42044,7 @@ CCCCCCBr
 
 $$$$
 412
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -3.8519    0.0059    0.3018 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42254,7 +42119,7 @@ CCCCCCCBr
 
 $$$$
 413
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
    -3.8203   -0.4367    0.4060 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42335,7 +42200,7 @@ CCCCCCCCBr
 
 $$$$
 414
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.2935   -0.1077    0.1249 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42392,7 +42257,7 @@ CC(C)Br
 
 $$$$
 415
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  1  0  0  0  0  0999 V2000
     1.5163   -0.0332    0.7410 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42452,7 +42317,7 @@ CCC(C)Br
 
 $$$$
 416
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -0.3591    1.2377    0.6803 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42512,7 +42377,7 @@ CC(C)CBr
 
 $$$$
 417
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.6756   -0.3305    0.0178 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42563,7 +42428,7 @@ C(CBr)Br
 
 $$$$
 418
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.2983    0.2308   -0.0771 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42620,7 +42485,7 @@ CCCI
 
 $$$$
 419
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
     1.4235    0.8362   -0.3207 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42680,7 +42545,7 @@ CCCCI
 
 $$$$
 420
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 16  0  0  0  0  0  0  0  0999 V2000
    -2.0068   -0.1505   -0.4884 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42743,7 +42608,7 @@ CCCCCI
 
 $$$$
 421
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  0  0  0  0  0  0999 V2000
     2.7937    0.0386    0.3407 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42812,7 +42677,7 @@ CCCCCCI
 
 $$$$
 422
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -3.7680    0.0967   -0.0957 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42887,7 +42752,7 @@ CCCCCCCI
 
 $$$$
 423
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0008   -0.2151    0.0022 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -42924,15 +42789,12 @@ C(I)I
 >  <dipole moment>
 1.14777590334
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 CH2I2
 
 $$$$
 424
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7803   -0.1458   -0.0990 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43016,7 +42878,7 @@ C(C(F)(Cl)Cl)(F)(F)Cl
 
 $$$$
 425
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  1  0  0  0  0  0999 V2000
     0.7279   -0.2238   -0.0564 C   0  0  2  0  0  0  0  0  0  0  0  0
@@ -43061,7 +42923,7 @@ C(C(F)(F)F)(F)Br
 
 $$$$
 426
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  1  0  0  0  0  0999 V2000
     0.7300    0.0209    0.1593 C   0  0  1  0  0  0  0  0  0  0  0  0
@@ -43121,7 +42983,7 @@ C(C(F)(F)F)(Cl)Br
 
 $$$$
 427
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  1  0  0  0  0  0999 V2000
    -1.7000    0.5862    0.0376 C   0  0  1  0  0  0  0  0  0  0  0  0
@@ -43174,7 +43036,7 @@ C(C(OC(F)F)(F)F)(F)Cl
 
 $$$$
 428
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.8762   -0.5511    0.1566 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43227,7 +43089,7 @@ COC(C(Cl)Cl)(F)F
 
 $$$$
 429
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  1  0  0  0  0  0999 V2000
     0.4467    0.2678   -0.2975 C   0  0  2  0  0  0  0  0  0  0  0  0
@@ -43280,7 +43142,7 @@ C(C(F)(F)F)(OC(F)F)Cl
 
 $$$$
 430
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     2.6443    0.4371   -0.0006 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43335,7 +43197,7 @@ C=COCC(F)(F)F
 
 $$$$
 431
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
     1.2621   -0.3659    0.1385 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43382,7 +43244,7 @@ C=CCCl
 
 $$$$
 432
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -1.3649   -0.4613    0.0488 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43429,7 +43291,7 @@ C=CCBr
 
 $$$$
 433
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -1.4298   -0.2783   -0.0038 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43476,7 +43338,7 @@ C=CCI
 
 $$$$
 434
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     2.2142    0.0137   -0.0607 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43536,7 +43398,7 @@ Cc1ccccc1Cl
 
 $$$$
 435
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -2.1829   -0.3275   -0.1522 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43596,7 +43458,7 @@ Cc1ccccc1Br
 
 $$$$
 436
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -2.2505    0.0612   -0.1533 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43656,7 +43518,7 @@ Cc1cccc(c1)Br
 
 $$$$
 437
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     2.2787    0.1695   -0.0323 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43716,7 +43578,7 @@ Cc1ccc(cc1)Br
 
 $$$$
 438
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -2.0568    0.2935   -0.5387 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43775,7 +43637,7 @@ CCCCS
 
 $$$$
 439
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -2.6993    0.1789    0.4491 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43834,7 +43696,7 @@ CCSCC
 
 $$$$
 440
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -3.4273   -0.8178    0.0250 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43905,7 +43767,7 @@ CCCSCCC
 
 $$$$
 441
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -1.8298   -1.2683    0.2631 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -43976,7 +43838,7 @@ CC(C)SC(C)C
 
 $$$$
 442
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10  9  0  0  0  0  0  0  0  0999 V2000
     1.8385   -0.2578   -0.5000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44025,7 +43887,7 @@ CSSC
 
 $$$$
 443
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
     2.8179    0.5050    0.2017 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44086,7 +43948,7 @@ CCSSCC
 
 $$$$
 444
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 12  0  0  0  0  0  0  0  0999 V2000
    -1.9825   -0.3337    0.1208 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44140,7 +44002,7 @@ Cc1cccs1
 
 $$$$
 445
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -1.6747    0.3461    0.1755 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44196,7 +44058,7 @@ c1ccc(cc1)S
 
 $$$$
 446
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.9778   -0.0609   -0.0311 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44249,7 +44111,7 @@ CC(=O)C(=O)C
 
 $$$$
 447
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -1.9602    0.3837    0.6611 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44306,7 +44168,7 @@ CC(=O)COC
 
 $$$$
 448
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  1  0  0  0  0  0999 V2000
    -1.4438    0.8107    0.4923 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44369,7 +44231,7 @@ CCC(C)Cl
 
 $$$$
 449
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  0  0  0  0  0  0999 V2000
     2.2966    0.2457   -0.4767 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44442,7 +44304,7 @@ CN1CCCCC1
 
 $$$$
 450
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -2.6951   -0.9095   -0.5265 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44519,7 +44381,7 @@ C6H14O
 
 $$$$
 451
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -2.7467   -0.5249   -0.4460 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44596,7 +44458,7 @@ C5H12O
 
 $$$$
 452
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -2.5714    0.1527    0.7857 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44664,7 +44526,7 @@ C5H12O
 
 $$$$
 453
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     2.2774    0.3093    0.3023 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44726,7 +44588,7 @@ C4H10O
 
 $$$$
 454
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -1.3734   -1.2040    0.2480 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44788,7 +44650,7 @@ C4H10O
 
 $$$$
 455
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -2.0160    0.3882    0.4304 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44851,7 +44713,7 @@ c1ccc(cc1)C(=O)O
 
 $$$$
 456
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     1.3906   -0.0718   -0.0119 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44911,7 +44773,7 @@ C1COCCN1
 
 $$$$
 457
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
     0.0023    0.0034    0.0677 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -44965,7 +44827,7 @@ C(F)(Cl)(Cl)Cl
 
 $$$$
 458
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
     2.8352    0.2887    0.4231 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45033,7 +44895,7 @@ C=Cc1ccccc1
 
 $$$$
 459
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
     2.0501    0.1397    0.4569 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45092,7 +44954,7 @@ COC(=O)C=C
 
 $$$$
 460
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  9  0  0  0  0  0  0  0  0999 V2000
    -0.7103    0.7444    0.0089 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45155,7 +45017,7 @@ c1ccoc1
 
 $$$$
 461
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7891    0.0938    0.0604 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45206,7 +45068,7 @@ C(C(F)(F)F)F
 
 $$$$
 462
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -3.7708   -0.1146   -0.1881 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45288,7 +45150,7 @@ C=CCCCCC=C
 
 $$$$
 463
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  1  0  0  0  0  0999 V2000
     2.9461   -0.5317   -0.6580 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45361,7 +45223,7 @@ C=CC1CCC=CC1
 
 $$$$
 464
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     2.0804    0.1300   -0.0622 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45422,7 +45284,7 @@ C3H8O2
 
 $$$$
 465
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
     3.8604    0.1037   -0.2850 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45506,7 +45368,7 @@ Cc1ccc(cc1)C(C)C
 
 $$$$
 466
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
    -1.3207   -0.1162   -0.1776 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45559,7 +45421,7 @@ C2H5NO
 
 $$$$
 467
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -2.1878   -1.2178   -0.1869 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45627,7 +45489,7 @@ CC(=C)c1ccccc1
 
 $$$$
 468
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
     2.7892    0.8355    0.3465 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45704,7 +45566,7 @@ CC(=CC(C)(C)C)C
 
 $$$$
 469
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
     1.4798    0.1921    0.1266 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45762,7 +45624,7 @@ C1C=CCC=C1
 
 $$$$
 470
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
     2.2411   -0.5215    0.6397 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45832,7 +45694,7 @@ C6H12O
 
 $$$$
 471
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -3.2419   -0.6261    0.8994 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45902,7 +45764,7 @@ C=CCCCC=C
 
 $$$$
 472
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
     1.0976   -0.1883   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45941,7 +45803,7 @@ OZONE
 
 $$$$
 473
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  1  0  0  0  0  0999 V2000
     1.4829    0.5221    0.7085 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -45997,7 +45859,7 @@ CCC1CO1
 
 $$$$
 474
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.4351   -0.0523   -0.0768 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46053,7 +45915,7 @@ C(C(CCl)O)Cl
 
 $$$$
 475
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  29 28  0  0  0  0  0  0  0  0999 V2000
     4.4133    1.2356    0.3949 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46146,7 +46008,7 @@ C9H18O2
 
 $$$$
 476
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 25  0  0  0  0  0  0  0  0999 V2000
     3.6841   -0.8653    0.7796 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46230,7 +46092,7 @@ C8H16O2
 
 $$$$
 477
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  86 85  0  0  0  0  0  0  0  0999 V2000
   -10.6620    3.1293    0.0283 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46425,7 +46287,7 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 $$$$
 478
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  1  0  0  0  0  0999 V2000
    -1.6241    0.1763   -0.4319 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46479,15 +46341,12 @@ CC1COC(=O)O1
 >  <dipole moment>
 5.48959096223
 
->  <experimental polarizability source>
-@Article{Bosque2002, Title = {Polarizabilities of Solvents from the Chemical Composition}, Author = {Bosque, Ramon and Sales, Joaquim}, Journal = {Journal of Chemical Information and Computer Sciences}, Year = {2002}, Note = {PMID: 12377003}, Number = {5}, Pages = {1154-1163}, Volume = {42}, Doi = {10.1021/ci025528x}, Url = {https://doi.org/10.1021/ci025528x}}
-
 >  <Formula>
 C4H6O3
 
 $$$$
 479
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -0.0158   -1.1385    0.3708 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46547,7 +46406,7 @@ C1CCOC(=O)C1
 
 $$$$
 480
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
     3.4020   -0.0585    0.3547 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46614,7 +46473,7 @@ CCOC(=O)CC(=O)C
 
 $$$$
 481
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -2.0180    0.3638   -0.9145 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46671,7 +46530,7 @@ CCOC(=O)C(F)(F)F
 
 $$$$
 482
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -2.0816    0.2099    0.3581 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46728,7 +46587,7 @@ CCOC(=O)C(Cl)(Cl)Cl
 
 $$$$
 483
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  1  0  0  0  0  0999 V2000
     1.0327   -0.0682   -0.0447 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46779,7 +46638,7 @@ CC(=N)O
 
 $$$$
 484
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  1  0  0  0  0  0999 V2000
    -1.3198   -0.1575   -0.4840 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46833,7 +46692,7 @@ CCC(=N)O
 
 $$$$
 485
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.8796   -0.6466   -0.0331 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46901,7 +46760,7 @@ C4H9NO
 
 $$$$
 486
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   9  8  0  0  0  0  0  0  0  0999 V2000
     0.2840   -0.3508   -0.5690 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -46948,7 +46807,7 @@ C(=O)(C(Cl)(Cl)Cl)N
 
 $$$$
 487
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  1  0  0  0  0  0999 V2000
    -1.6992    0.0216   -0.0836 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47004,7 +46863,7 @@ CCOC(=N)O
 
 $$$$
 488
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.4302   -0.0465   -0.0162 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47052,7 +46911,7 @@ C(=O)O
 
 $$$$
 489
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -0.4175    1.2469   -0.7194 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47109,7 +46968,7 @@ CC(C)C(=O)O
 
 $$$$
 490
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 19  0  0  1  0  0  0  0  0999 V2000
     2.5139    0.1002   -1.3884 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47178,7 +47037,7 @@ CCCC(C)C(=O)O
 
 $$$$
 491
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7171   -0.1309   -0.3207 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47226,7 +47085,7 @@ C(C(=O)O)Cl
 
 $$$$
 492
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -0.2266    0.5820   -0.2062 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47279,7 +47138,7 @@ C(CO)CCl
 
 $$$$
 493
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     0.0385   -0.4459    0.0637 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47334,7 +47193,7 @@ C(CO)CO
 
 $$$$
 494
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.0814    0.3811    0.2444 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47379,7 +47238,7 @@ C(=S)(N)N
 
 $$$$
 495
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  41 40  0  0  0  0  0  0  0  0999 V2000
     0.0846    3.8804   -1.5900 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47490,7 +47349,7 @@ CCCCP(=O)(CCCC)CCCC
 
 $$$$
 496
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 19  0  0  0  0  0  0  0  0999 V2000
    -2.3082   -1.1168   -0.1781 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47557,7 +47416,7 @@ c1ccc2cc(ccc2c1)Cl
 
 $$$$
 497
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     2.6939   -0.2627   -0.5455 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47623,7 +47482,7 @@ COc1ccccc1C=O
 
 $$$$
 498
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.4446   -0.1999   -0.0453 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47687,7 +47546,7 @@ c1ccc(cc1)CC=O
 
 $$$$
 499
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     3.4559    0.2760   -0.0508 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47753,7 +47612,7 @@ CC(=O)Oc1ccccc1
 
 $$$$
 500
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
     2.4760   -2.4300    0.1726 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47831,7 +47690,7 @@ COC(=O)c1ccccc1C(=O)OC
 
 $$$$
 501
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  30 30  0  0  0  0  0  0  0  0999 V2000
    -4.6518    0.5313    0.0318 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47921,7 +47780,7 @@ CCOC(=O)c1ccccc1C(=O)OCC
 
 $$$$
 502
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -2.3036   -0.0634   -0.1549 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -47983,7 +47842,7 @@ c1ccc(cc1)CC#N
 
 $$$$
 503
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.7239   -0.7337   -0.0683 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48041,7 +47900,7 @@ c1ccc(c(c1)C#N)C#N
 
 $$$$
 504
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -0.1751    1.6979    0.0158 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48099,7 +47958,7 @@ c1cc(cc(c1)C#N)C#N
 
 $$$$
 505
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
     0.7283    1.1931    0.1100 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48157,7 +48016,7 @@ c1cc(ccc1C#N)C#N
 
 $$$$
 506
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  0  0  0  0  0  0999 V2000
     2.8616   -0.1788   -0.8661 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48227,7 +48086,7 @@ CCc1ccc(cc1)N
 
 $$$$
 507
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 23  0  0  0  0  0  0  0  0999 V2000
     2.8107    0.5028    0.6290 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48303,7 +48162,7 @@ CCCc1ccc(cc1)N
 
 $$$$
 508
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 23  0  0  0  0  0  0  0  0999 V2000
    -2.4059   -0.4996   -1.2724 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48379,7 +48238,7 @@ CC(C)c1ccc(cc1)N
 
 $$$$
 509
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 26  0  0  0  0  0  0  0  0999 V2000
    -3.8830   -0.5082    0.8594 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48461,7 +48320,7 @@ CCCCc1ccc(cc1)N
 
 $$$$
 510
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -0.4211    1.1441   -0.1815 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48522,7 +48381,7 @@ c1cc(ccc1N)Cl
 
 $$$$
 511
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -1.8640   -0.9139    0.0874 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48584,7 +48443,7 @@ c1ccc(c(c1)N)[N+](=O)[O-]
 
 $$$$
 512
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
     0.0643    1.7529   -0.5395 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48646,7 +48505,7 @@ c1cc(cc(c1)[N+](=O)[O-])N
 
 $$$$
 513
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -0.6521   -0.8967   -0.8696 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48708,7 +48567,7 @@ c1cc(ccc1N)[N+](=O)[O-]
 
 $$$$
 514
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
     2.6585   -1.2192    0.0688 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48776,7 +48635,7 @@ CC(=O)c1cccc(c1)N
 
 $$$$
 515
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
     3.0627    0.8396   -0.3322 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48844,7 +48703,7 @@ CC(=O)c1ccc(cc1)N
 
 $$$$
 516
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  0  0  0  0  0  0999 V2000
     3.0261   -0.2316   -0.3151 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48914,7 +48773,7 @@ Cc1ccc(c(c1)C)N
 
 $$$$
 517
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -2.6521    0.2373    0.2370 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -48981,7 +48840,7 @@ CNc1ccccc1
 
 $$$$
 518
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 26  0  0  0  0  0  0  0  0999 V2000
    -2.0940   -0.3573   -1.7039 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49063,7 +48922,7 @@ CCN(CC)c1ccccc1
 
 $$$$
 519
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
    -2.4794   -0.1318    0.1324 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49127,7 +48986,7 @@ c1ccc(cc1)CN
 
 $$$$
 520
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
     2.7721   -0.7179   -0.1440 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49195,7 +49054,7 @@ Cc1ccc(c(c1)C)O
 
 $$$$
 521
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
     2.9761    0.1588   -0.1796 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49263,7 +49122,7 @@ Cc1ccc(c(c1)O)C
 
 $$$$
 522
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -2.6061   -0.7414    0.1652 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49331,7 +49190,7 @@ Cc1cc(cc(c1)O)C
 
 $$$$
 523
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -2.4231   -0.5709    0.7005 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49399,7 +49258,7 @@ CCc1ccccc1O
 
 $$$$
 524
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
     2.6093    0.2166   -0.5481 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49467,7 +49326,7 @@ CCc1cccc(c1)O
 
 $$$$
 525
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -2.6397   -0.0798   -0.9587 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49535,7 +49394,7 @@ CCc1ccc(cc1)O
 
 $$$$
 526
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 25  0  0  0  0  0  0  0  0999 V2000
     3.8629   -0.3722   -0.2757 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49615,7 +49474,7 @@ Cc1ccc(c(c1)O)C(C)C
 
 $$$$
 527
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -1.0324   -1.0347    0.4115 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49671,7 +49530,7 @@ c1ccc(c(c1)O)F
 
 $$$$
 528
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.6302    1.4721    0.0979 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49730,7 +49589,7 @@ c1cc(cc(c1)Cl)O
 
 $$$$
 529
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.5834    1.1011   -0.0232 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49789,7 +49648,7 @@ c1cc(ccc1O)Cl
 
 $$$$
 530
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -1.5083   -0.4276   -0.5149 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49848,7 +49707,7 @@ c1ccc(c(c1)O)Br
 
 $$$$
 531
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.5299    1.0700   -0.3742 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49904,7 +49763,7 @@ c1cc(ccc1O)Br
 
 $$$$
 532
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -1.4707   -0.3007   -0.7205 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -49960,7 +49819,7 @@ c1ccc(c(c1)O)I
 
 $$$$
 533
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.5651   -1.2164   -0.2850 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50016,7 +49875,7 @@ c1cc(ccc1O)I
 
 $$$$
 534
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
     1.2167    0.9448   -0.4812 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50072,7 +49931,7 @@ c1cc(c(cc1Cl)Cl)O
 
 $$$$
 535
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.7498   -0.0328    0.0241 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50136,7 +49995,7 @@ COc1ccccc1O
 
 $$$$
 536
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.7013    0.5077    0.2359 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50200,7 +50059,7 @@ COc1cccc(c1)O
 
 $$$$
 537
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     2.8884   -0.4781    0.2901 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50264,7 +50123,7 @@ COc1ccc(cc1)O
 
 $$$$
 538
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -1.3420   -1.2469   -0.6120 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50324,7 +50183,7 @@ c1ccc(c(c1)C=O)O
 
 $$$$
 539
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     2.9099    0.2626   -0.4517 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50390,7 +50249,7 @@ CC(=O)c1ccc(cc1)O
 
 $$$$
 540
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -0.6341    1.6557    0.3708 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50450,7 +50309,7 @@ c1cc(cc(c1)O)[N+](=O)[O-]
 
 $$$$
 541
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -0.4094    1.1215    0.3547 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50510,7 +50369,7 @@ c1cc(ccc1[N+](=O)[O-])O
 
 $$$$
 542
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     1.0487    1.2531   -0.3935 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50574,7 +50433,7 @@ c1cc(c(cc1[N+](=O)[O-])[N+](=O)[O-])O
 
 $$$$
 543
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
    -1.3465    1.5866    0.0218 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50636,7 +50495,7 @@ c1ccc(c(c1)C(=O)O)O
 
 $$$$
 544
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     1.6556   -1.2627   -0.0841 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50700,7 +50559,7 @@ c1ccc(c(c1)CO)O
 
 $$$$
 545
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -2.7648   -0.2643   -0.5756 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50768,7 +50627,7 @@ c1ccc(cc1)CCO
 
 $$$$
 546
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 11  0  0  0  0  0  0  0  0999 V2000
    -0.0786    1.2175    0.0503 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50820,7 +50679,7 @@ c1ccnc(c1)Cl
 
 $$$$
 547
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 11  0  0  0  0  0  0  0  0999 V2000
    -0.4524    1.1409    0.0594 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50872,7 +50731,7 @@ c1ccnc(c1)Br
 
 $$$$
 548
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     2.6825   -0.1628   -0.1722 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50932,7 +50791,7 @@ COc1ccccn1
 
 $$$$
 549
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     2.1485   -0.1755    0.0025 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -50992,7 +50851,7 @@ Cn1ccccc1=O
 
 $$$$
 550
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 18  0  0  0  0  0  0  0  0999 V2000
     2.1512   -0.8845   -0.1361 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51057,7 +50916,7 @@ c1ccc2cnccc2c1
 
 $$$$
 551
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  10 10  0  0  0  0  0  0  0  0999 V2000
     0.0914    1.1945    0.0247 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51107,7 +50966,7 @@ c1cc[nH]c1
 
 $$$$
 552
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
    -0.0277    0.0002   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51142,7 +51001,7 @@ C#N
 
 $$$$
 553
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -3.0251    0.3911    0.1094 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51215,7 +51074,7 @@ CCOCOCC
 
 $$$$
 554
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.6814   -0.1505    0.6159 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51285,7 +51144,7 @@ COCCOC
 
 $$$$
 555
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  0  0  0  0  0  0999 V2000
     3.7370    0.0601    0.1684 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51355,7 +51214,7 @@ CC(=O)Nc1ccc(cc1)O
 
 $$$$
 556
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  0  0  0  0  0  0999 V2000
    -1.2646    0.6427    1.1948 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51433,7 +51292,7 @@ CN(C)/C(=N\c1ccc(c(c1)Cl)Cl)/O
 
 $$$$
 557
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0629   -0.1590    0.0022 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51472,7 +51331,7 @@ C(Cl)Br
 
 $$$$
 558
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
    -2.0456    0.2851    0.4495 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51527,7 +51386,7 @@ COCOC
 
 $$$$
 559
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -2.9661    0.9240    0.8241 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51594,7 +51453,7 @@ CCOCCOC
 
 $$$$
 560
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 23  0  0  0  0  0  0  0  0999 V2000
    -3.5259   -0.4929   -0.1398 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51672,7 +51531,7 @@ c1ccc(cc1)c2ccccc2
 
 $$$$
 561
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 26  0  0  0  0  0  0  0  0999 V2000
     3.4415   -0.9470    0.1150 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51752,7 +51611,7 @@ c1ccc2c(c1)ccc3c2cccc3
 
 $$$$
 562
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 26  0  0  0  0  0  0  0  0999 V2000
     3.6809    0.5293    0.3686 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51835,7 +51694,7 @@ c1ccc2cc3ccccc3cc2c1
 
 $$$$
 563
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
     0.0000    0.0000   -0.0000 Ge  0  0  0  0  0  0  0  0  0  0  0  0
@@ -51874,7 +51733,7 @@ TETRABROMOGERMANE
 
 $$$$
 564
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.2364    1.8967   -0.9645 Cl  0  0  0  0  0  0  0  0  0  0  0  0
@@ -51913,7 +51772,7 @@ Cl[Ge](Cl)(Cl)Cl
 
 $$$$
 565
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.8259   -0.0189    0.6987 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -51980,7 +51839,7 @@ C=CCCC=C
 
 $$$$
 566
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -1.1757   -1.3425    0.3680 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52044,7 +51903,7 @@ CC(=C)C(=C)C
 
 $$$$
 567
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.2723   -0.7640   -0.9085 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52102,7 +51961,7 @@ c1ccc(c(c1)N)Cl
 
 $$$$
 568
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.0039   -1.3334    0.3375 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52160,7 +52019,7 @@ c1cc(cc(c1)Cl)N
 
 $$$$
 569
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
     2.5140   -0.7305    0.8023 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52226,7 +52085,7 @@ COc1ccccc1N
 
 $$$$
 570
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  1  0  0  0  0  0999 V2000
     2.3282    0.1259    0.0841 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52289,7 +52148,7 @@ c1ccc(cc1)C(=N)O
 
 $$$$
 571
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -3.3081   -0.4641    0.8216 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52357,7 +52216,7 @@ COC(=O)c1ccccc1O
 
 $$$$
 572
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 22  0  0  0  0  0  0  0  0999 V2000
     3.5240   -0.4056   -0.7571 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52431,7 +52290,7 @@ CCOC(=O)c1ccccc1O
 
 $$$$
 573
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 25  0  0  0  0  0  0  0  0999 V2000
     4.3921   -0.6866    0.2949 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52511,7 +52370,7 @@ CCCOC(=O)c1ccccc1O
 
 $$$$
 574
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 28  0  0  0  0  0  0  0  0999 V2000
    -4.7351    0.8647    0.0142 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52597,7 +52456,7 @@ CCCCOC(=O)c1ccccc1O
 
 $$$$
 575
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.5254   -0.4093    0.2125 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52642,7 +52501,7 @@ C(=O)(C(Cl)(Cl)Cl)O
 
 $$$$
 576
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   4  3  0  0  0  0  0  0  0  0999 V2000
     0.6055   -0.2830    0.4016 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52679,7 +52538,7 @@ OO
 
 $$$$
 577
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -1.4228   -1.2106    0.4023 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52739,7 +52598,7 @@ c1ccc(c(c1)N)O
 
 $$$$
 578
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -0.4241    1.7380   -0.0457 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52799,7 +52658,7 @@ c1cc(cc(c1)O)N
 
 $$$$
 579
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     0.4605    1.2543   -0.0237 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52859,7 +52718,7 @@ c1cc(ccc1N)O
 
 $$$$
 580
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
     3.4012    0.8574   -0.6875 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52932,7 +52791,7 @@ CCOC(C)OCC
 
 $$$$
 581
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.2928   -1.0399   -0.5467 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -52990,7 +52849,7 @@ c1ccc(c(c1)[N+](=O)[O-])Cl
 
 $$$$
 582
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  20 20  0  0  0  0  0  0  0  0999 V2000
     3.4439   -0.1320    0.1502 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53060,7 +52919,7 @@ CCC(=O)c1ccccc1
 
 $$$$
 583
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  32 31  0  0  0  0  0  0  0  0999 V2000
    -5.1748    0.5315    0.5195 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53153,7 +53012,7 @@ CCCCCCCCCC(=O)O
 
 $$$$
 584
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
    -2.2193   -0.3330   -0.1754 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53213,7 +53072,7 @@ Cc1cccc(c1)Cl
 
 $$$$
 585
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 15  0  0  0  0  0  0  0  0999 V2000
     2.2707   -0.0269    0.1383 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53273,7 +53132,7 @@ Cc1ccc(cc1)Cl
 
 $$$$
 586
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -2.2737    0.5522   -0.1100 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53335,7 +53194,7 @@ CC/C=C/C
 
 $$$$
 587
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     2.6449   -0.5680    0.5415 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53409,7 +53268,7 @@ CCC=C(C)C
 
 $$$$
 588
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  30 29  0  0  0  0  0  0  0  0999 V2000
    -4.7212   -0.4022    1.1181 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53498,7 +53357,7 @@ CCCCCCCCC=C
 
 $$$$
 589
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  36 35  0  0  0  0  0  0  0  0999 V2000
     4.9935    1.6533    1.0548 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53599,7 +53458,7 @@ CCCCCCCCCCC=C
 
 $$$$
 590
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 12  0  0  0  0  0  0  0  0999 V2000
     2.2723    0.2205    0.3335 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53654,7 +53513,7 @@ C=CCC=C
 
 $$$$
 591
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  13 13  0  0  0  0  0  0  0  0999 V2000
    -0.4759   -1.0004   -0.2172 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53716,7 +53575,7 @@ C1CC=CC1
 
 $$$$
 592
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 19  0  0  0  0  0  0  0  0999 V2000
    -0.7906   -1.3156    0.0059 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53787,7 +53646,7 @@ C1CCC=CCC1
 
 $$$$
 593
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 22  0  0  0  0  0  0  0  0999 V2000
    -0.5760   -1.4754    0.5149 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53864,7 +53723,7 @@ C1CCCC=CCC1
 
 $$$$
 594
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 11  0  0  0  0  0  0  0  0999 V2000
    -1.1121    0.0575   -0.1230 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53919,7 +53778,7 @@ C1C=CC=C1
 
 $$$$
 595
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0034   -0.0789    0.0013 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -53961,7 +53820,7 @@ C(F)F
 
 $$$$
 596
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
     0.0039    0.0017    0.0627 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54003,7 +53862,7 @@ C(F)(F)F
 
 $$$$
 597
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   5  4  0  0  0  0  0  0  0  0999 V2000
    -0.0071    0.0987    0.0710 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54045,7 +53904,7 @@ C(F)(Cl)Cl
 
 $$$$
 598
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7663   -0.1082    0.1594 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54090,7 +53949,7 @@ C(C(F)(F)F)(F)F
 
 $$$$
 599
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
    -0.7956    0.2040    0.0901 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54138,7 +53997,7 @@ CC(F)(F)Cl
 
 $$$$
 600
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  1  0  0  0  0  0999 V2000
     0.7657   -0.1008   -0.0299 C   0  0  2  0  0  0  0  0  0  0  0  0
@@ -54186,7 +54045,7 @@ C(C(F)(F)F)(F)Cl
 
 $$$$
 601
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7853   -0.0163    0.0690 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54234,7 +54093,7 @@ C(C(F)(F)Cl)(F)(F)Cl
 
 $$$$
 602
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   8  7  0  0  0  0  0  0  0  0999 V2000
     0.7970   -0.0242   -0.0630 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54282,7 +54141,7 @@ C(C(F)(F)Cl)(F)(F)F
 
 $$$$
 603
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
    -0.6275   -0.0338    0.2485 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54326,7 +54185,7 @@ C(=C(F)F)Cl
 
 $$$$
 604
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 23  0  0  0  0  0  0  0  0999 V2000
     2.1423    1.3073   -0.0763 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54415,7 +54274,7 @@ CC(C)OC(C)(C)C
 
 $$$$
 605
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   3  2  0  0  0  0  0  0  0  0999 V2000
    -0.1330    0.3869    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54457,7 +54316,7 @@ C(=O)=S
 
 $$$$
 606
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
     2.7946   -0.7827   -0.9406 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54535,7 +54394,7 @@ CCCC(C)(C)C
 
 $$$$
 607
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
     1.7154    0.7259   -0.8681 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54613,7 +54472,7 @@ CC(C)C(C)(C)C
 
 $$$$
 608
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  27 27  0  0  0  0  0  0  0  0999 V2000
    -3.2755   -0.3552   -0.0746 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54703,7 +54562,7 @@ CCCC1CCCCC1
 
 $$$$
 609
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  30 30  0  0  0  0  0  0  0  0999 V2000
     4.1915    0.1734   -0.0823 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54793,7 +54652,7 @@ CCCCC1CCCCC1
 
 $$$$
 610
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -2.8028   -0.3805    0.2106 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54857,7 +54716,7 @@ CC/C=C/C=C
 
 $$$$
 611
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 14  0  0  0  0  0  0  0  0999 V2000
    -1.1767   -0.4457   -0.3706 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54915,7 +54774,7 @@ C1CC=CC=C1
 
 $$$$
 612
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
     0.0707   -0.3173    0.5037 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -54966,7 +54825,7 @@ C(C(F)(F)F)(C(F)(F)F)F
 
 $$$$
 613
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  11 10  0  0  0  0  0  0  0  0999 V2000
    -1.3762   -0.1848    0.4960 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55017,7 +54876,7 @@ C/C=C\C=O
 
 $$$$
 614
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -2.1398    0.0047   -0.5561 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55085,7 +54944,7 @@ CC(=O)OC=C
 
 $$$$
 615
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 16  0  0  0  0  0  0  0  0999 V2000
     2.1354    0.2672   -0.1411 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55150,7 +55009,7 @@ C5H9NO
 
 $$$$
 616
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  1  0  0  0  0  0999 V2000
     2.4628    1.0301    0.2857 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55231,7 +55090,7 @@ C[C@H]1CC[C@H](CC1)C
 
 $$$$
 617
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  1  0  0  0  0  0999 V2000
     2.7186   -0.1977   -0.6974 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55312,7 +55171,7 @@ C[C@H]1CC[C@@H](CC1)C
 
 $$$$
 618
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  1  0  0  0  0  0999 V2000
     1.9616   -1.4001    0.2216 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55393,7 +55252,7 @@ C[C@@H]1CCCC[C@@H]1C
 
 $$$$
 619
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  1  0  0  0  0  0999 V2000
    -0.2051   -2.1114   -0.7487 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55471,7 +55330,7 @@ C[C@H]1CCCC[C@@H]1C
 
 $$$$
 620
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  17 17  0  0  0  0  0  0  0  0999 V2000
     0.4130    0.6894   -1.0402 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55538,7 +55397,7 @@ C5H9NO2
 
 $$$$
 621
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -1.7847   -0.2845   -0.2311 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55594,7 +55453,7 @@ C3H7NO
 
 $$$$
 622
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  22 21  0  0  0  0  0  0  0  0999 V2000
    -1.9694    1.0641    1.0133 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55667,7 +55526,7 @@ CC(C)CCC(=O)C
 
 $$$$
 623
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  25 24  0  0  0  0  0  0  0  0999 V2000
    -2.5862   -0.5602    0.8056 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55746,7 +55605,7 @@ CC(C)CCCC(=O)C
 
 $$$$
 624
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  28 27  0  0  0  0  0  0  0  0999 V2000
    -3.6295    0.2086   -0.7666 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55831,7 +55690,7 @@ CC(C)CCCCC(=O)C
 
 $$$$
 625
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   6  5  0  0  0  0  0  0  0  0999 V2000
     0.6627    0.0122   -0.0597 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55875,7 +55734,7 @@ CH3NO
 
 $$$$
 626
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  12 11  0  0  0  0  0  0  0  0999 V2000
    -0.2610    1.1975   -0.4484 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55928,7 +55787,7 @@ CC(=C)C(=O)O
 
 $$$$
 627
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  0  0  0  0  0  0999 V2000
    -1.7183    0.1843   -1.0057 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -55998,7 +55857,7 @@ C5H12O2
 
 $$$$
 628
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  1  0  0  0  0  0999 V2000
    -0.6901   -1.4534   -0.5718 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56059,7 +55918,7 @@ OC(OCC)C
 
 $$$$
 629
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  19 18  0  0  1  0  0  0  0  0999 V2000
    -2.0106    0.8751   -0.6913 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56126,7 +55985,7 @@ CC(C)OC(C)O
 
 $$$$
 630
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  26 29  0  0  0  0  0  0  0  0999 V2000
    -3.5172    0.2277    0.0010 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56208,7 +56067,7 @@ c1cc2ccc3cccc4c3c2c(c1)cc4
 
 $$$$
 631
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  1  0  0  0  0  0999 V2000
     2.6401   -0.7699    0.0719 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56286,7 +56145,7 @@ C[C@@H]1CCC[C@@H](C1)C
 
 $$$$
 632
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  24 24  0  0  1  0  0  0  0  0999 V2000
     2.2155   -1.6037   -0.0382 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56364,7 +56223,7 @@ C[C@@H]1CCC[C@H](C1)C
 
 $$$$
 633
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 22  0  0  0  0  0  0  0  0999 V2000
     2.9091    0.5286    0.1421 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56437,7 +56296,7 @@ c1ccc2c(c1)cccc2C(=O)O
 
 $$$$
 634
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 22  0  0  0  0  0  0  0  0999 V2000
    -3.0248    1.0304    0.2109 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56510,7 +56369,7 @@ c1ccc2cc(ccc2c1)C(=O)O
 
 $$$$
 635
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     2.6090   -0.6698   -1.1342 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56575,7 +56434,7 @@ CC/C=C/CC
 
 $$$$
 636
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
    -3.0354   -0.1384    0.0204 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56636,7 +56495,7 @@ C/C=C/C=C/C
 
 $$$$
 637
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  14 13  0  0  0  0  0  0  0  0999 V2000
    -2.7348    0.0454   -0.7061 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56693,7 +56552,7 @@ C=C/C=C\C=C
 
 $$$$
 638
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  16 15  0  0  0  0  0  0  0  0999 V2000
     2.8353    0.6607   -0.1067 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56754,7 +56613,7 @@ C/C=C/CC=C
 
 $$$$
 639
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
     3.2175   -0.7036   -0.1874 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56829,7 +56688,7 @@ CCCCC(C)C
 
 $$$$
 640
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  1  0  0  0  0  0999 V2000
     3.2720   -0.3080    0.0183 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56904,7 +56763,7 @@ CCCC(C)CC
 
 $$$$
 641
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -2.1777   -1.3940    0.3748 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -56979,7 +56838,7 @@ CCC(CC)CC
 
 $$$$
 642
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  1  0  0  0  0  0999 V2000
     2.4457    0.9514    0.4549 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57054,7 +56913,7 @@ CCC(C)C(C)C
 
 $$$$
 643
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  23 22  0  0  0  0  0  0  0  0999 V2000
    -2.3811    0.1611    0.5526 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57129,7 +56988,7 @@ CCC(C)(C)CC
 
 $$$$
 644
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
    -2.1134    0.5449   -0.0650 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57188,7 +57047,7 @@ CC/C=C\C
 
 $$$$
 645
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -1.9799    0.2800    0.9416 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57253,7 +57112,7 @@ CC(C)CC=C
 
 $$$$
 646
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
    -0.7595    1.3536    0.6207 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57318,7 +57177,7 @@ CC(C)(C)C=C
 
 $$$$
 647
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -3.5138   -0.1519    0.2169 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57389,7 +57248,7 @@ CCCC/C=C\C
 
 $$$$
 648
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -3.5479    0.2077   -0.0248 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57460,7 +57319,7 @@ CCCC/C=C/C
 
 $$$$
 649
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     3.1046   -1.0267   -0.3034 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57531,7 +57390,7 @@ CCC/C=C\CC
 
 $$$$
 650
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -3.5810    0.0444    0.3265 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57602,7 +57461,7 @@ CCC/C=C/CC
 
 $$$$
 651
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     1.4763    0.5201   -1.3721 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57673,7 +57532,7 @@ CCCCC(=C)C
 
 $$$$
 652
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
     1.9201    0.6545   -0.6414 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57744,7 +57603,7 @@ CC(C)CCC=C
 
 $$$$
 653
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  21 20  0  0  0  0  0  0  0  0999 V2000
    -1.1324   -0.2194    1.3319 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57815,7 +57674,7 @@ CC(C)(C)CC=C
 
 $$$$
 654
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
   4  3  0  0  0  0  0  0  0  0999 V2000
     0.0029   -0.0023    0.5937 P   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57852,7 +57711,7 @@ P
 
 $$$$
 655
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  15 14  0  0  0  0  0  0  0  0999 V2000
     1.7196   -0.0585    0.7058 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57911,7 +57770,7 @@ CCC(=C)C
 
 $$$$
 656
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 17  0  0  0  0  0  0  0  0999 V2000
     2.0634   -0.0693    0.2695 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -57976,7 +57835,7 @@ CCCC(=C)C
 
 $$$$
 657
- OpenBabel08101817183D
+ OpenBabel08101817283D
 
  18 18  0  0  0  0  0  0  0  0999 V2000
    -0.6783   -1.2148   -0.4217 C   0  0  0  0  0  0  0  0  0  0  0  0
