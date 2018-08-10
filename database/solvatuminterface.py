@@ -1,11 +1,11 @@
 #!/usr/bin/python
 """
-With this module you can interact with the solvation free energy database.
-The usage of the database is described in the README.
+With this module you can interact with the Solv@TUM database.
+The usage of this database interface is described in the README.
 
 Please note:
 This module was written for Python2.7.
-The compatibility with Python3 has not been tested yet.
+The compatibility with Python3 has not been tested.
 
 Last Update 10.08.2018
 author: Christoph Hille (c.hille@tum.de)
@@ -46,7 +46,7 @@ class Database:
         - path:             -   str; path to the sdf databasefile
                                 default: same directory
         - name:             -   str; databasename
-                                default: 'database.sdf'
+                                default: 'solvatum.sdf'
         - energy_unit:      -   str; 'eV', 'kcal' or 'J'
                                 (unit for the energy)
                                 default: eV
@@ -56,7 +56,7 @@ class Database:
     """
     def __init__(self,
                  path=None,
-                 name='database.sdf',
+                 name='solvatum.sdf',
                  energy_unit='eV',
                  temperature=298.15):
 
@@ -90,12 +90,12 @@ class Database:
     def __get_all_solvents(self):
         """
         Returns dictionary of all solvent-molecules in the database
-        with the solvent name as key and a tuple of the number of
-        solutes, for which reference data exists, and the dielctric constant as values
+        with the solvent name as key and the number of solutes,
+        for which reference data exists
 
         Example:
-            {'METHANOL': (104, 32.613), ...}
-            104 reference values for Methanol as solvent and the dielctric constant of Methanol is 32.613
+            {'METHANOL': 104, ...}
+            There are 104 reference values for Methanol as solvent.
         """
 
         solvents = {}
@@ -106,28 +106,12 @@ class Database:
             for name in data:
                 if 'logK' in name:
                     sol = name[6:-1].upper()
-                elif 'WATER' in name:
-                    sol = 'WATER'
-                elif name == 'dielectric constant':
-                    eps[data['Name']] = data[name]
-                    sol = None
-                else:
-                    sol = None
-                    continue
-                if sol not in solvents:
-                    solvents[sol] = 1
-                else:
-                    solvents[sol] += 1
+                    if sol not in solvents:
+                        solvents[sol] = 1
+                    else:
+                        solvents[sol] += 1
 
-        del solvents[None]
-        solvents_out = {}
-        for sol in solvents:
-            if sol in eps:
-                solvents_out[sol] = (solvents[sol], eps[sol])
-            else:
-                solvents_out[sol] = (solvents[sol], None)
-
-        return solvents_out
+        return solvents
 
     def __check_if_molecules_in_database(self, molecules_list, issolvent=False, disp=True):
         """
@@ -191,10 +175,9 @@ class Database:
         if solvent not in self.solvents:
             print('Solvent %s was not found in the database' % solvent)
             return
-
-        if solvent == 'WATER':
-            key = 'dgexp marzari (WATER)'
-        elif solvent == '(\\XB1)-2-BUTANOL':
+        
+        # to avoid problem with unicode:
+        if solvent == '(\\XB1)-2-BUTANOL':
             key = 'logK ((\\xb1)-2-BUTANOL)'
         elif solvent == '(\\XB1)-1,2-PROPANEDIOL':
             key = 'logK ((\\xb1)-1,2-PROPANEDIOL)'
@@ -203,26 +186,14 @@ class Database:
         solutes_list = []
         for mol in solutes:
             if key in mol.data.keys():
-                if solvent == 'WATER':
-                    # values of water are already solvation free energies in kcal/mol
-                    logK = None
-                    deltaGsolv = float(mol.data[key])
-                    if self.energy_unit == 'eV':
-                        # conversion kcal/mol to eV
-                        deltaGsolv = round((deltaGsolv * constants.kilo * constants.calorie) /
-                                           (constants.N_A * constants.eV), 4)
-                    elif self.energy_unit == 'J':
-                        # conversion kcal/mol to J
-                        deltaGsolv = round(deltaGsolv * constants.calorie * constants.kilo, 2)
-                else:
-                    logK = float(mol.data[key])
-                    deltaGsolv = self.__calculate_G_solv(logK)
+                logK = float(mol.data[key])
+                deltaGsolv = calculate_G_solv(logK, unit=self.energy_unit, temp=self.temperature)
                 solutes_list += [[mol.title, mol.data['Name'], logK, deltaGsolv]]
 
         if nogeo:
             props = {}
         else:
-            props = self.__get_molecule_properties(solvent)
+            props = self.get_molecule_properties(solvent)
 
         return props, solutes_list
 
@@ -230,7 +201,6 @@ class Database:
         """
         Returns the pybel mol-object for a given solute (name or id).
         """
-
         if type(solute) != str:
             raise TypeError('Solute has to be given as a single string')
 
@@ -242,16 +212,16 @@ class Database:
         """
         Returns a list of solvents and logK values for a given solute.
         """
-
+        
         mol = self.one_mol_from_sdf(solute.upper())
 
         solvents_list = []
         for key in mol.data.keys():
             if key[0:4] == 'logK':
-                solvents_list += [[key[6:-1], mol.data[key], self.__calculate_G_solv(eval(mol.data[key]))]]
-        if solute.upper() == 'WATER':
-            solvents_list += [['WATER', None, mol.data['dgexp marzari (WATER)']]]
-        props = self.__get_molecule_properties(solute)
+                solvents_list += [[key[6:-1], mol.data[key], calculate_G_solv(float(mol.data[key]), 
+                                                                                    unit=self.energy_unit,
+                                                                                    temp=self.temperature)]]
+        props = self.get_molecule_properties(solute)
 
         return props, solvents_list
 
@@ -269,68 +239,19 @@ class Database:
         logK, deltaGsolv = solvent_solute[0][2:]
         return {'logK': logK, 'deltaG_solv': deltaGsolv}
 
-    def __calculate_G_solv(self, logK):
-        """
-        Calculates the solvation free energy for a given logK value in kcal/mol or eV.
-        Formular: deltaGsolv = -ln(10)*RT*logK
-        This function uses the class variables self.temperature and self.unit.
-
-        INPUT:
-            - logK:     float; Partition Coefficient
-        """
-
-        unit = self.energy_unit
-        T = self.temperature
-
-        delta_G_solv = - constants.R * T * math.log(10) * logK  # deltaGsolv in joule
-
-        if unit == 'kcal/mol':
-            # conversion joule to kcal/mol
-            delta_G_solv = round(delta_G_solv / (constants.calorie * constants.kilo), 2)
-        elif unit == 'eV':
-            # conversion joule to eV
-            delta_G_solv = round(delta_G_solv / (constants.N_A * constants.eV), 5)
-        elif unit == 'J':
-            delta_G_solv = round(delta_G_solv, 2)
-        else:
-            raise IOError("The unit %s is not supported as energy unit in this database." % unit +
-                          "Please choose between 'kcal/mol', 'eV' or 'J'")
-
-        return delta_G_solv
-
-    def __get_molecule_properties(self, solvent):
+    def get_molecule_properties(self, solvent):
 
         mol = self.one_mol_from_sdf(solvent)
-
-        eps = 'dielectric constant'
-        eps_source = 'dielectric constant source'
-        gamma = 'surface tension'
-        polar = 'mean polarizability'
-        dipole = 'dipole moment'
-        polar_exp = 'experimental polarizability'
 
         props = {}
         props['molweight'] = round(float(mol.molwt), 2)
         props['formula'] = mol.formula
-        props['InChI'] = mol.data['InChI']
-        props['SMILES'] = mol.data['SMILES']
-        props['vacuum energy'] = mol.data['vacuum energy']
         props['databaseID'] = mol.title
 
-        if eps in mol.data:
-            props[eps] = float(mol.data[eps])
-        if eps_source in mol.data:
-            props[eps_source] = mol.data[eps_source]
-        elif eps in mol.data:
-            print('There is no source for the dielectric constant value of %s' % solvent)
-        if gamma in mol.data:
-            props[gamma] = float(mol.data[gamma])
-        if polar in mol.data:
-            props[polar] = float(mol.data[polar])
-        if dipole in mol.data:
-            props[dipole] = float(mol.data[dipole])
-        if polar_exp in mol.data:
-            props[polar_exp] = float(mol.data[polar_exp])
+        for key in mol.data:
+            if key[:4] != "logK":
+                props[key] = mol.data[key]
+
         return props
 
     def create_sol_props_df(self):
@@ -341,30 +262,26 @@ class Database:
         solprops = pd.DataFrame(solprops).T
         solprops['solute_dipole'] = solprops['dipole moment']
         solprops['solute_polari'] = solprops['mean polarizability']
-        solprops['solute_polari_exp'] = solprops['experimental polarizability']
-        solprops = pd.DataFrame(data=solprops, columns=['solute_dipole', 'solute_polari', 'solute_polari_exp'])
+        solprops = pd.DataFrame(data=solprops, columns=['solute_dipole', 'solute_polari'])
 
         return solprops
 
     def filtering(self, solvent=None, solute=None, disp=True):
-
+        
         if solute is not None and solvent is not None:
+            if type(solute) != str or type(solvent) != str:
+                raise TypeError('Solute/ Solvent has to be given as a single string')
             return self.__filter_solvent_solute(solvent.upper(), solute.upper(), disp=disp)
         elif solute is not None:
+            if type(solute) != str:
+                raise TypeError('Solute has to be given as a single string')
             return self.__filter_solute(solute.upper())
         elif solvent is not None:
+            if type(solvent) != str:
+                raise TypeError('Solvent has to be given as a single string')
             return self.__filter_solvent(solvent.upper(), disp=disp)
 
-    def add_dielectric_constant(self, molecule, value, source=None):
-
-        self.add_property(molecule, 'dielectric constant', value)
-        print('Added dielectric constant epsilon = %f for solute %s' % (value, molecule))
-
-        if source is not None:
-            self.add_property(molecule, 'dielectric constant source', source)
-            print('Added %s as source for dielectric constant for solute %s' % (source, molecule))
-
-    def add_property(self, molecule, prop_name, prop_value, name='database.sdf'):
+    def add_property(self, molecule, prop_name, prop_value, name='solvatum.sdf'):
 
         if type(molecule) != str:
             raise TypeError('Molecule has to be given as a string')
@@ -590,3 +507,32 @@ class Database:
                 return True
 
         return False
+
+
+def calculate_G_solv(logK, unit='eV', temp=298.15):
+    """
+    Calculates the solvation free energy for a given logK value in kcal/mol or eV.
+    Formular: deltaGsolv = -ln(10)*RT*logK
+    This function uses the class variables self.temperature and self.unit.
+
+    INPUT:
+        - logK:     float; Partition Coefficient
+        - unit:     string; energy unit
+        - temp:     float; temperature
+    """
+
+    delta_G_solv = - constants.R * temp * math.log(10) * logK  # deltaGsolv in joule
+
+    if unit == 'kcal/mol':
+        # conversion joule to kcal/mol
+        delta_G_solv = round(delta_G_solv / (constants.calorie * constants.kilo), 2)
+    elif unit == 'eV':
+        # conversion joule to eV
+        delta_G_solv = round(delta_G_solv / (constants.N_A * constants.eV), 5)
+    elif unit == 'J':
+        delta_G_solv = round(delta_G_solv, 2)
+    else:
+        raise IOError("The unit %s is not supported as energy unit." % unit +
+                        "Please choose between 'kcal/mol', 'eV' or 'J'")
+
+    return delta_G_solv
