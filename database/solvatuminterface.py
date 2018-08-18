@@ -7,7 +7,7 @@ Please note:
 This module was written for Python2.7.
 The compatibility with Python3 has not been tested.
 
-Last Update 10.08.2018
+Last Update 18.08.2018
 author: Christoph Hille (c.hille@tum.de)
 """
 
@@ -17,8 +17,6 @@ from os.path import join as pathjoin
 import time
 from subprocess import call
 import math
-import pandas as pd
-from scipy import constants
 import pybel
 
 try:
@@ -36,8 +34,18 @@ try:
 except ImportError:
     pass
 
+try:
+    from scipy import constants
+except ImportError:
+    pass
 
-class Database:
+try:
+    import pandas as pd
+except ImportError:
+    pass
+
+
+class Database(object):
     """
     By initialising of this class, the content of the SD-file will be loaded by using the Python module Pybel.
     Afterwards different methods can be applied on the database object.
@@ -70,7 +78,7 @@ class Database:
         self.solvents = self.__get_all_solvents()
         self.energy_unit = energy_unit
         self.temperature = temperature
-        
+
         if "imolecule" in sys.modules:
             pybel.ipython_3d = True
 
@@ -99,7 +107,6 @@ class Database:
         """
 
         solvents = {}
-        eps = {}
 
         for mol in self.sdf_file:
             data = mol.data
@@ -113,69 +120,63 @@ class Database:
 
         return solvents
 
-    def __check_if_molecules_in_database(self, molecules_list, issolvent=False, disp=True):
+    def __check_if_molecules_in_database(self, molecule, issolvent=False, disp=True):
         """
-        Checks for every molecule in a given list if it has a geometry entry in the database
+        Checks for a given molecule if it has a geometry entry in the database.
         """
-        if type(molecules_list) != list:
-            raise TypeError('Molecules list has to be a list!')
+        if not isinstance(molecule, str):
+            raise TypeError('Molecule has to be given as a string!')
 
-        for sol in molecules_list:
-            if sol not in self.solutes.keys() and sol.upper() not in self.solutes.values():
-                if not issolvent:
-                    raise KeyError('The given solute %s could not be identified as a solute in the database' % sol)
-                else:
-                    if sol.upper() not in self.solvents:
-                        raise KeyError('The given solvent %s could not be identified as a solvent in the database' % sol)
-                    if disp:
-                        print('There is no geometry entry for solvent %s in database' % sol)
-                    return 'no geometry'
+        sol = molecule
 
-    def __name_id_handler(self, molecules_list, direction='id', issolvent=False, disp=True):
+        if sol not in self.solutes.keys() and sol.upper() not in self.solutes.values():
+            if not issolvent:
+                raise KeyError('The given solute %s could not be identified as a solute in the database' % sol)
+            else:
+                if sol.upper() not in self.solvents:
+                    raise KeyError('The given solvent %s could not be identified as a solvent in the database' % sol)
+                if disp:
+                    print('There is no geometry entry for solvent %s in database' % sol)
+                return 'no geometry'
+        return 'has geometry'
+
+    def __name_id_handler(self, molecule, direction='id', issolvent=False, disp=True):
         """
         Converts soluteID to solute name and vice versa
-        (eg:    INPUT: solutes_list=[Argon], direction='id' -> OUTPUT: solutes_list=[002]
-                INPUT: solutes_list=[081], direction='name'	-> OUTPUT: solutes_list=[METHANOL]
+        (eg:    INPUT: molecule='Argon', direction='id' -> OUTPUT: '002'
+                INPUT: molecule='081', direction='name'	-> OUTPUT: 'METHANOL'
         """
-        if self.__check_if_molecules_in_database(molecules_list, issolvent=issolvent, disp=disp) == 'no geometry':
-            return ['no geometry']
+        if not isinstance(molecule, str):
+            raise TypeError('Molecule has to be given as a string!')
 
         if direction == 'id':
-            for i in range(len(molecules_list)):
-                if molecules_list[i] in self.solutes.keys():
-                    pass
-                else:
-                    molecules_list[i] = self.solutes.keys()[self.solutes.values().index(molecules_list[i].upper())]
+            if issolvent:
+                raise RuntimeError("Solvents have no database ID.")
+            elif molecule not in self.solutes.keys():
+                molecule = self.solutes.keys()[self.solutes.values().index(molecule.upper())]
 
         elif direction == 'name':
-            for i in range(len(molecules_list)):
-                if molecules_list[i].upper() in self.solutes.values():
-                    molecules_list[i] = molecules_list[i].upper()
-                else:
-                    molecules_list[i] = self.solutes[molecules_list[i]]
+            if self.__check_if_molecules_in_database(molecule, issolvent=issolvent, disp=disp) == 'no geometry':
+                molecule = molecule.upper()
+            elif molecule.upper() in self.solutes.values():
+                molecule = molecule.upper()
+            else:
+                molecule = self.solutes[molecule]
 
-        return molecules_list
+        return molecule
 
     def __filter_solvent(self, solvent, solutes='all', disp=True):
         """
         Returns dictionary with solvent properties and a list of soluteIDs,
         solutes and logK values for the given solvent.
         """
-        if solutes == 'all':
-            solutes = self.sdf_file
-
         solvent = solvent.upper()
-        solventname = self.__name_id_handler([solvent], direction='name', issolvent=True, disp=disp)[0]
-        if solventname == 'no geometry':
-            nogeo = True
-        else:
-            nogeo = False
-            solvent = solventname
 
         if solvent not in self.solvents:
-            print('Solvent %s was not found in the database' % solvent)
-            return
-        
+            raise KeyError('Solvent %s was not found in the database' % solvent)
+
+        nogeo = bool(self.__check_if_molecules_in_database(solvent, issolvent=True, disp=disp) == 'no geometry')
+
         # to avoid problem with unicode:
         if solvent == '(\\XB1)-2-BUTANOL':
             key = 'logK ((\\xb1)-2-BUTANOL)'
@@ -183,12 +184,15 @@ class Database:
             key = 'logK ((\\xb1)-1,2-PROPANEDIOL)'
         else:
             key = 'logK (' + solvent + ')'
+
+        if solutes == 'all':
+            solutes = self.sdf_file
         solutes_list = []
         for mol in solutes:
             if key in mol.data.keys():
-                logK = float(mol.data[key])
-                deltaGsolv = calculate_G_solv(logK, unit=self.energy_unit, temp=self.temperature)
-                solutes_list += [[mol.title, mol.data['Name'], logK, deltaGsolv]]
+                log_k = float(mol.data[key])
+                delta_g_solv = calculate_g_solv(log_k, unit=self.energy_unit, temp=self.temperature)
+                solutes_list += [[mol.title, mol.data['Name'], log_k, delta_g_solv]]
 
         if nogeo:
             props = {}
@@ -201,10 +205,10 @@ class Database:
         """
         Returns the pybel mol-object for a given solute (name or id).
         """
-        if type(solute) != str:
+        if not isinstance(solute, str):
             raise TypeError('Solute has to be given as a single string')
 
-        solute = self.__name_id_handler([solute])[0]
+        solute = self.__name_id_handler(solute)
 
         return self.sdf_file[int(solute)]
 
@@ -212,15 +216,17 @@ class Database:
         """
         Returns a list of solvents and logK values for a given solute.
         """
-        
+
         mol = self.one_mol_from_sdf(solute.upper())
 
         solvents_list = []
         for key in mol.data.keys():
             if key[0:4] == 'logK':
-                solvents_list += [[key[6:-1], mol.data[key], calculate_G_solv(float(mol.data[key]), 
-                                                                                    unit=self.energy_unit,
-                                                                                    temp=self.temperature)]]
+                solvents_list += [[key[6:-1],
+                                   mol.data[key],
+                                   calculate_g_solv(float(mol.data[key]),
+                                                    unit=self.energy_unit,
+                                                    temp=self.temperature)]]
         props = self.get_molecule_properties(solute)
 
         return props, solvents_list
@@ -233,15 +239,19 @@ class Database:
         solutemol = [self.one_mol_from_sdf(solute)]
 
         solvent_solute = self.__filter_solvent(solvent, solutes=solutemol, disp=disp)[1]
-        if len(solvent_solute) == 0:
+        if not solvent_solute:
             raise KeyError('No logK value for solute %s and solvent %s was found in the database' % (solute, solvent))
 
-        logK, deltaGsolv = solvent_solute[0][2:]
-        return {'logK': logK, 'deltaG_solv': deltaGsolv}
+        log_k, delta_g_solv = solvent_solute[0][2:]
+        return {'logK': log_k, 'deltaG_solv': delta_g_solv}
 
-    def get_molecule_properties(self, solvent):
+    def get_molecule_properties(self, molecule):
+        """
+        Returns dictionary with all data stored in the database for one molecule (except the logL values).
+        (e.g.: SMILES, dipole moment, InChI, ...)
+        """
 
-        mol = self.one_mol_from_sdf(solvent)
+        mol = self.one_mol_from_sdf(molecule)
 
         props = {}
         props['molweight'] = round(float(mol.molwt), 2)
@@ -255,7 +265,14 @@ class Database:
         return props
 
     def create_sol_props_df(self):
-
+        """
+        Returns pandas data frame with solute dipole moment and solute polarizability.
+        This requires the Python package pandas.
+        """
+        if "pandas" not in sys.modules:
+            print(r"You have to install Pandas before you can use this method.")
+            return None
+        
         solprops = {}
         for sol in self.solutes:
             solprops[int(sol)] = self.filtering(solute=sol)[0]
@@ -267,26 +284,31 @@ class Database:
         return solprops
 
     def filtering(self, solvent=None, solute=None, disp=True):
-        
+        """
+        Filtering the data for one solvent, solute or both.
+        """
         if solute is not None and solvent is not None:
-            if type(solute) != str or type(solvent) != str:
+            if not isinstance(solute, str) or not isinstance(solvent, str):
                 raise TypeError('Solute/ Solvent has to be given as a single string')
             return self.__filter_solvent_solute(solvent.upper(), solute.upper(), disp=disp)
-        elif solute is not None:
-            if type(solute) != str:
+        if solute is not None:
+            if not isinstance(solute, str):
                 raise TypeError('Solute has to be given as a single string')
             return self.__filter_solute(solute.upper())
-        elif solvent is not None:
-            if type(solvent) != str:
+        if solvent is not None:
+            if not isinstance(solvent, str):
                 raise TypeError('Solvent has to be given as a single string')
             return self.__filter_solvent(solvent.upper(), disp=disp)
+        return None
 
     def add_property(self, molecule, prop_name, prop_value, name='solvatum.sdf'):
-
-        if type(molecule) != str:
+        """
+        Adding further properties to the database.
+        """
+        if not isinstance(molecule, str):
             raise TypeError('Molecule has to be given as a string')
 
-        molecule = self.__name_id_handler([molecule])[0]
+        molecule = self.__name_id_handler(molecule)
 
         output = pybel.Outputfile('sdf', pathjoin(self.path, name), overwrite=True)
 
@@ -314,51 +336,93 @@ class Database:
     def get_reference(self, solvent):
         """
         Returns the reference of the partition coefficient for one solvent.
-        Requires the installation of bibtexparser (http://bibtexparser.readthedocs.io/en/master/index.html)
+        A proper usage of this method requires the installation of bibtexparser
+        (http://bibtexparser.readthedocs.io/en/master/index.html)
         """
 
-        if "bibtexparser" not in sys.modules:
-            print(r"This feature requires the installation of bibtexparser." + "\n"
-                  r"Go to http://bibtexparser.readthedocs.io/en/master/index.html for more informations.")
+        # for solvents without a solute entry in the database the bibtex references have to be set here:
+        further_refs = {'1-ETHYL-2-PYRROLIDINONE': 'Krummen2002',
+                        '1-HEXADECENE': 'Abraham2012',
+                        '1-METHYL-2-PIPERIDINONE': 'Abraham2009',
+                        '1,5-DIMETHYL-2-PYRROLIDINONE': 'Krummen2002',
+                        '5,8,11,14-TETRAOXAOCTADECANE': 'Hart2017',
+                        'DIBENZYL ETHER': 'Park1987',
+                        '1,2-DICHLOROETHANE': 'Sprunger2008a',
+                        'DIETHYLDIGLYCOL': 'Park1987',
+                        'DIETHYLENE GLYCOL DIBUTYL ETHER': 'Hart2017',
+                        'ETHYLBENZOATE': 'Topphoff2000',
+                        'ETHYLENE GLYCOL': 'Abraham2010',
+                        'HEPTYLACETATE': 'Based on activity coefficient equal to unity',
+                        'N-ETHYLACETAMIDE': 'Abraham2009',
+                        'N-ETHYLFORMAMIDE': 'Abraham2009',
+                        'N,N-DIBUTYLFORMAMIDE': 'Abraham2009',
+                        'N,N-DIETHYLACETAMIDE': 'Abraham2009',
+                        'PENTAN-3-OL': 'Miyano2005, Miyano2006',
+                        'SULFOLANE': 'Stephens2011',
+                        'TETRADECANE': 'Vrbka2002, Mokbel1998',
+                        'TETRAETHYLENE GLYCOL DIMETHYL ETHER': 'Hart2017'}
 
-        solvent = self.__name_id_handler([solvent], direction='name', issolvent=True, disp=False)[0]
+        if "bibtexparser" in sys.modules:
+            os.chdir(self.path)
+            os.chdir('..')
+            mainpath = os.getcwd()
 
-        os.chdir(self.path)
-        os.chdir('..')
-        mainpath = os.getcwd()
+            try:
+                with open(pathjoin(mainpath, 'references', 'solvatum_references.bib')) as bibtex_file:
+                    bib_database = bibtexparser.load(bibtex_file)
+                    refs = bib_database.entries_dict
+                    bibtex = True
+            except IOError:
+                print("WARNING: The bibtex file 'solvatum_references.bib' could not be found.\n\n")
+                bibtex = False
 
-        try:
-            with open(pathjoin(mainpath, 'references', 'references.bib')) as bibtex_file:
-                bib_database = bibtexparser.load(bibtex_file)
-        except IOError:
-            raise IOError("The bibtex file 'references.bib' could not be found." +
-                          "Ensure the same folder structure as in the git repository")
-
-        refs = bib_database.entries_dict
-
-        try:
-            ref_per_solvent = pd.read_csv(pathjoin(mainpath, 'references', 'references_per_solvent.csv'), index_col=0)
-        except IOError:
-            raise IOError("The file 'references_per_solvent.csv' could not be found in the folder references." +
-                          "Ensure the same folder structure as in the git repository")
-        ref_per_solvent = ref_per_solvent['reference']
-        ref_per_solvent = ref_per_solvent.dropna()
-
-        if solvent in ref_per_solvent:
-            print('')
-            keys = [u'title',  u'author',  u'journal', u'year', u'volume', u'pages',  u'doi',  u'url', 'ID']
-            for key in keys:
-                try:
-                    entry = refs[ref_per_solvent[solvent]][key]
-                    print(key + ': ' + entry)
-                except KeyError:
-                    pass
         else:
-            print('No reference for solvent %s deposited' % solvent)
+            bibtex = False
+            print(r"WARNING: A proper usage of this feature requires the installation of bibtexparser." + "\n"
+                  r"Go to http://bibtexparser.readthedocs.io/en/master/index.html for more informations." + "\n"
+                  r"If this is not installed, this method just prints the bibtex key " +
+                  r"and the corresponding reference has to be manually looked up " +
+                  r"in 'references/solvatum_references.bib'" + "\n\n")
+
+        solvent = self.__name_id_handler(solvent, direction='name', issolvent=True, disp=False)
+
+        if solvent in self.solutes.values():
+            try:
+                ref_per_solvent = self.get_molecule_properties(solvent)['reference']
+            except KeyError:
+                print("No reference for solvent %s deposited" % solvent)
+                return
+        else:
+            try:
+                ref_per_solvent = further_refs[solvent]
+            except KeyError:
+                print("No reference for solvent %s deposited" % solvent)
+                return
+        ref_per_solvent = ref_per_solvent.split(", ")
+
+        print('------------------------------\n')
+        for ref in ref_per_solvent:
+            if ref == "Based on activity coefficient equal to unity":
+                print(ref)
+                continue
+            if bibtex:
+                ref = refs[ref]
+                keys = [u'title', u'author', u'journal', u'year', u'volume', u'pages', u'doi', u'url', 'ID']
+                for key in keys:
+                    try:
+                        entry = ref[key]
+                        print(key + ': ' + entry)
+                    except KeyError:
+                        pass
+            else:
+                print(ref)
+            print('------------------------------\n')
+
+        return
 
     def draw(self, molecule, title=None, notebook=False, save=None):
         """
-        Drawing a given molecules.
+        Drawing the depiction of a given molecule (one can also give a list of molecules as input).
 
         If using this method in jupyter notebooks, one can set 'notebook=True' for inline printing.
 
@@ -369,10 +433,11 @@ class Database:
         For saving the figure use 'save=<folder name>'. The folder will be created in the current directory.
         The picture will be saved as a png.
         """
-        molecule = self.__name_id_handler([molecule])
+        if isinstance(molecule, str):
+            molecule = [molecule]
 
         for mol in molecule:
-            mol = self.sdf_file[int(mol)]
+            mol = self.one_mol_from_sdf(mol)
 
             oldtitle = mol.title
             if title is not None:
@@ -407,7 +472,8 @@ class Database:
                 else:
                     mol.draw()
 
-            mol.title = oldtitle
+                mol.title = oldtitle
+                return None
 
     def mol_to_ase(self, molecule):
         """
@@ -420,9 +486,9 @@ class Database:
         if "ase" not in sys.modules:
             print(r"You have to install ASE before you can use this feature." + "\n"
                   r"Go to https://wiki.fysik.dtu.dk/ase/ for more informations.")
+            return None
 
-        molecule = self.__name_id_handler([molecule], disp=False)[0]
-        mol = self.sdf_file[int(molecule)]
+        mol = self.one_mol_from_sdf(molecule)
 
         output = pybel.Outputfile('sdf', ".tmp.sdf", overwrite=True)
         output.write(mol)
@@ -438,8 +504,7 @@ class Database:
         Currently only avogadro is supported, but you can test it with other programms as well.
         """
 
-        molecule = self.__name_id_handler([molecule], disp=False)[0]
-        mol = self.sdf_file[int(molecule)]
+        mol = self.one_mol_from_sdf(molecule)
 
         output = pybel.Outputfile('sdf', ".tmp.sdf", overwrite=True)
         output.write(mol)
@@ -453,8 +518,6 @@ class Database:
 
         Returns bool.
         """
-        solute = self.__name_id_handler([solute], disp=False)[0]
-
         mol = self.one_mol_from_sdf(solute)
 
         for atom in mol.atoms:
@@ -473,8 +536,6 @@ class Database:
         if not self.sol_has_ring(solute):
             return False
 
-        solute = self.__name_id_handler([solute], disp=False)[0]
-
         mol = self.one_mol_from_sdf(solute)
 
         for atom in mol.atoms:
@@ -488,8 +549,6 @@ class Database:
         """
         Returns the number of atoms in a given solute
         """
-        solute = self.__name_id_handler([solute], disp=False)[0]
-
         mol = self.one_mol_from_sdf(solute)
 
         return len(mol.atoms)
@@ -498,8 +557,6 @@ class Database:
         """
         Returns if solute has a conjugated system (an atom which is sp1 or sp2 hybridized)
         """
-        solute = self.__name_id_handler([solute], disp=False)[0]
-
         mol = self.one_mol_from_sdf(solute)
 
         for atom in mol.atoms:
@@ -509,30 +566,42 @@ class Database:
         return False
 
 
-def calculate_G_solv(logK, unit='eV', temp=298.15):
+def calculate_g_solv(log_k, unit='eV', temp=298.15):
     """
-    Calculates the solvation free energy for a given logK value in kcal/mol or eV.
-    Formular: deltaGsolv = -ln(10)*RT*logK
-    This function uses the class variables self.temperature and self.unit.
+    Calculates the solvation free energy for a given logK value in kcal/mol, eV or J.
+    Formula: delta_g_solv = -ln(10)*RT*log_k
 
     INPUT:
-        - logK:     float; Partition Coefficient
-        - unit:     string; energy unit
+        - log_k:     float; Partition Coefficient
+        - unit:     string; energy unit (kcal/mol, eV or J)
         - temp:     float; temperature
     """
 
-    delta_G_solv = - constants.R * temp * math.log(10) * logK  # deltaGsolv in joule
+    if 'scipy' in sys.modules:
+        con_r = constants.R
+        con_cal = constants.calorie
+        con_kilo = constants.kilo
+        con_na = constants.N_A
+        con_ev = constants.eV
+    else:
+        con_r = 8.3144598
+        con_cal = 4.184
+        con_kilo = 1000.0
+        con_na = 6.022140857e+23
+        con_ev = 1.6021766208e-19
+
+    delta_g_solv = - con_r * temp * math.log(10) * log_k  # delta_g_solv in joule
 
     if unit == 'kcal/mol':
         # conversion joule to kcal/mol
-        delta_G_solv = round(delta_G_solv / (constants.calorie * constants.kilo), 2)
+        delta_g_solv = round(delta_g_solv / (con_cal * con_kilo), 2)
     elif unit == 'eV':
         # conversion joule to eV
-        delta_G_solv = round(delta_G_solv / (constants.N_A * constants.eV), 5)
+        delta_g_solv = round(delta_g_solv / (con_na * con_ev), 5)
     elif unit == 'J':
-        delta_G_solv = round(delta_G_solv, 2)
+        delta_g_solv = round(delta_g_solv, 2)
     else:
         raise IOError("The unit %s is not supported as energy unit." % unit +
-                        "Please choose between 'kcal/mol', 'eV' or 'J'")
+                      "Please choose between 'kcal/mol', 'eV' or 'J'")
 
-    return delta_G_solv
+    return delta_g_solv
