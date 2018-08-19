@@ -27,7 +27,6 @@ For this just type
     $ conda install -c openbabel openbabel
 
 in your command line.
-(This requires of course that conda is installed)
 
 ## Installation of the Solv@TUM user interface:
     
@@ -76,8 +75,8 @@ With
 ```python
 >>> d.get_molecule_properties(<molecule>)
 ```
-all properties (data) except the logK values which are stored in the database are shwon
-(e.g. ).
+all properties (data) which are stored in the database, except the logK values,  are shwon
+(e.g. formula, InChI, name, mean polarizability, dipole moment, etc.).
 Adding new properties is simple done with
 
 ```python
