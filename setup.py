@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='solvatum',
       version='1.0',
@@ -10,6 +10,5 @@ setup(name='solvatum',
       url='https://mediatum.ub.tum.de/1452573',
       license='cc-by-sa',
       packages=['solvatum'],
-      data_files=[('solvatum', ['solvatum.sdf']),
-                  ('references', ['solvatum_references.bib'])],
+      include_package_data=True,
      )

@@ -1,2 +1,2 @@
-include solvatum/solvatum.sdf
-include references/solvatum_references.bib
+include solvatum/data/solvatum.sdf
+include solvatum/data/solvatum_references.bib
