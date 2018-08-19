@@ -1,2 +1,11 @@
+
+dist/
+solvatum.egg-info/
+
+*.swp
 *.pyc
+*.nfs000000000*
+
+*.pdf
 *.xlsx
+

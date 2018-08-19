@@ -1,3 +1,5 @@
+include LICENSE
+include README.md
 include solvatum/data/solvatum.sdf
 include solvatum/data/solvatum_references.bib
 include fixed_pybel/pybel.py
