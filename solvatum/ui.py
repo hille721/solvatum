@@ -1,15 +1,4 @@
 #!/usr/bin/python
-"""
-With this module you can interact with the Solv@TUM database.
-The usage of this database interface is described in the README.
-
-Please note:
-This module was written for Python2.7.
-The compatibility with Python3 has not been tested.
-
-Last Update 18.08.2018
-author: Christoph Hille (c.hille@tum.de)
-"""
 
 import sys
 import os
@@ -52,7 +41,7 @@ class Database(object):
     For more information have a look into the README.
     options:
         - path:             -   str; path to the sdf databasefile
-                                default: same directory
+                                default: data/
         - name:             -   str; databasename
                                 default: 'solvatum.sdf'
         - energy_unit:      -   str; 'eV', 'kcal' or 'J'
@@ -71,7 +60,7 @@ class Database(object):
         if path:
             self.path = path
         else:
-            self.path = os.path.dirname(__file__)
+            self.path = pathjoin(os.path.dirname(__file__), 'data')
 
         self.sdf_file = list(pybel.readfile("sdf", pathjoin(self.path, name)))
         self.solutes = self.__get_all_solutes()
@@ -363,12 +352,8 @@ class Database(object):
                         'TETRAETHYLENE GLYCOL DIMETHYL ETHER': 'Hart2017'}
 
         if "bibtexparser" in sys.modules:
-            os.chdir(self.path)
-            os.chdir('..')
-            mainpath = os.getcwd()
-
             try:
-                with open(pathjoin(mainpath, 'references', 'solvatum_references.bib')) as bibtex_file:
+                with open(pathjoin(self.path, 'solvatum_references.bib')) as bibtex_file:
                     bib_database = bibtexparser.load(bibtex_file)
                     refs = bib_database.entries_dict
                     bibtex = True

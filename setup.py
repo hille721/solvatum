@@ -2,6 +2,7 @@
 
 import sys
 from setuptools import setup
+from solvatum import __version__, __author__, __email__
 
 try:
     import pybel
@@ -13,11 +14,11 @@ with open("README.md", "r") as fh:
     
 setup(
     name='solvatum',
-    version='1.0',
+    version=__version__,
     packages=['solvatum'],
     include_package_data=True,
-    author='Christoph Hille',
-    author_email='c.hille@tum.de',
+    author=__author__,
+    author_email=__email__,
     description='Solvation Free Energy Database',
     long_description=long_description,
     long_description_content_type="text/markdown",
