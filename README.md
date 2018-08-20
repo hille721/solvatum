@@ -90,7 +90,7 @@ Adding new properties is simple done with
 ```
 returns the pybel.Molecule object of a given solute molecule. To that you can apply any Pybel or OpenBabel method.
 
-If you are using the Atomic Simulation Environment (ASE) the database interface can directly convert the pybel.Molecule object to an ASE Atomas object with:
+If you are using the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/) the database interface can directly convert the pybel.Molecule object to an ASE Atomas object with:
 ```python
 >>> d.mol_to_ase(<molecule>)
 ```
