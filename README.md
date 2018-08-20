@@ -9,7 +9,15 @@ For a simple and fast access to the data one can use the
 
 The installation and usage of this user interface is described in the following sections.
 
-# Installation:
+# Dependencies
+
+The Solv@TUM interface currently only supports Python 2.7.
+
+Installation requires [OpenBabel](http://openbabel.org/wiki/Main_Page) and its Python Interface [Pybel](https://openbabel.org/docs/dev/UseTheLibrary/Python_Pybel.html).
+
+Some functions will optionally use [pandas](https://pandas.pydata.org/), [bibtexparser](https://bibtexparser.readthedocs.io/) and [ase](https://wiki.fysik.dtu.dk/ase/).
+
+# Installation
 
 ## Installation of Pybel/OpenBabel
 
@@ -29,6 +37,12 @@ For this just type
 in your command line.
 
 ## Installation of the Solv@TUM user interface:
+
+The latest stable release can be downloade from:
+
+[https://mediatum.ub.tum.de/1452573](https://mediatum.ub.tum.de/1452573)
+
+and installed with
     
     $ pip install solvatum-1.0.tar.gz
 
