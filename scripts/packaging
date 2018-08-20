@@ -7,10 +7,8 @@ from os.path import join as pathjoin
 if os.getcwd().split('/')[-1] == 'scripts':
 	sys.exit("Sorry, you have to run this script in the main path")
 
-from solvatum import __version__
+from setup import VERSION
 
-distname = 'dist/solvatum-' + __version__ + '.tar.gz'
+distname = 'dist/solvatum-' + VERSION + '.tar.gz'
 
-os.system('tar cfvz ' + distname + ' * --exclude scripts --exclude dist --exclude .git --exclude *.pyc --exclude solvatum/*.pyc --exclude .gitignore')
-
-
+os.system('tar cfvz ' + distname + ' * --exclude scripts --exclude dist --exclude .git --exclude *.pyc --exclude solvatum/*.pyc --exclude solvatum/test.py --exclude .gitignore')
