@@ -32,7 +32,10 @@ in your command line.
     
     $ pip install solvatum-1.0.tar.gz
 
-# Usage of the database interface:
+# Usage of the database interface
+
+## Filtering & Properties
+
 Open a Python prompt and type in:
 
 ```python
@@ -80,6 +83,17 @@ Adding new properties is simple done with
 ```python
 >>> d.add_property(<molecule>, <property_name>, <property_value>)
 ```    
+## Working with the molecule geometries
+
+```python
+>>> d.one_mol_from_sdf(<solute>)
+```
+returns the pybel.Molecule object of a given solute molecule. To that you can apply any Pybel or OpenBabel method.
+
+If you are using the Atomic Simulation Environment (ASE) the database interface can directly convert the pybel.Molecule object to an ASE Atomas object with:
+```python
+>>> d.mol_to_ase(<molecule>)
+```
 
 The database interface also provides the possibility to draw depictions of the molecules:
 
