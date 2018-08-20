@@ -44,7 +44,7 @@ The latest stable release can be downloade from:
 
 and installed with
     
-    $ pip install solvatum-1.0.tar.gz
+    $ pip install solvatum-1.0.0.tar.gz
 
 # Usage of the database interface
 
