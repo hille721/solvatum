@@ -30,9 +30,7 @@ in your command line.
 
 ## Installation of the Solv@TUM user interface:
     
-    $ tar -xzvf solvatum-1.0.tar.gz
-    $ cd solvatum-1.0
-    $ python setup.py install
+    $ pip install solvatum-1.0.tar.gz
 
 # Usage of the database interface:
 Open a Python prompt and type in:
