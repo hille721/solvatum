@@ -45,6 +45,8 @@ The latest stable release can be downloaded and installed with
 
 (password for download: m1452571_001)
 
+For a manual download go to https://mediatum.ub.tum.de/1452571.
+
 # Usage of the database interface
 
 ## Filtering & Properties
