@@ -36,15 +36,14 @@ For this just type
 
 in your command line.
 
-## Installation of the Solv@TUM user interface:
+## Installation of Solv@TUM:
 
-The latest stable release can be downloade from:
+The latest stable release can be downloaded and installed with
 
-[https://mediatum.ub.tum.de/1452573](https://mediatum.ub.tum.de/1452573)
+    $ rsync rsync://m1452571_001@138.246.224.34/m1452571_001/solvatum-1.0.0.zip .
+    $ pip install solvatum-1.0.0.zip
 
-and installed with
-    
-    $ pip install solvatum-1.0.0.tar.gz
+(password for download: m1452571_001)
 
 # Usage of the database interface
 
