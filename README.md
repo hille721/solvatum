@@ -1,8 +1,8 @@
-Solv@TUM is a solvation free energy database which contains partition coefficients
-of 658 neutrale organic molekules and inorganic gases dissolved in organic solvents.
-The values were collected form different work by Prof. Dr. Acree Jr.
-All publications of these values are listed in the [bib file](solvatum/data/solvatum_references.bib).
-The actual [database file](solvatum/data/solvatum.sdf) is a structured data file (sdf).
+The Solv@TUM database contains a collection of experimentally measured partition coefficients for a large number of molecular solutes in non-aqueous solvents.
+The database is aimed at providing reference data for e.g. the parameter fitting of effective solvation models.
+The data has been compiled from the works of Abraham, Acree and co-workers and will be regularly updated as new data becomes available.
+Each entry is provided with the respective literature reference, all publications are listed in [solvatum/data/solvatum_references.bib](solvatum/data/solvatum_references.bib).
+The actual database  ([solvatum/data/solvatum.sdf](solvatum/data/solvatum.sdf)) is given as a single structure data file (sdf).
 
 For a simple and fast access to the data one can use the
 [user interface](solvatum/ui.py), which is written in the Python programming language.
