@@ -1,4 +1,4 @@
-The Solv@TUM database contains a collection of experimentally measured partition coefficients for a large number of molecular solutes in non-aqueous solvents.
+The [Solv@TUM database](http://doi.org/10.14459/2018mp1452571.001) contains a collection of experimentally measured partition coefficients for a large number of molecular solutes in non-aqueous solvents.
 The database is aimed at providing reference data for e.g. the parameter fitting of effective solvation models.
 The data has been compiled from the works of Abraham, Acree and co-workers and will be regularly updated as new data becomes available.
 Each entry is provided with the respective literature reference, all publications are listed in [solvatum/data/solvatum_references.bib](solvatum/data/solvatum_references.bib).
