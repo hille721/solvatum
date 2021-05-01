@@ -6,7 +6,7 @@ from os.path import join as pathjoin
 import time
 from subprocess import call
 import math
-import pybel
+from openbabel import pybel
 
 try:
     from ase.io import sdf
@@ -142,7 +142,7 @@ class Database(object):
             if issolvent:
                 raise RuntimeError("Solvents have no database ID.")
             elif molecule not in self.solutes.keys():
-                molecule = self.solutes.keys()[self.solutes.values().index(molecule.upper())]
+                molecule = list(self.solutes.keys())[list(self.solutes.values()).index(molecule.upper())]
 
         elif direction == 'name':
             if self.__check_if_molecules_in_database(molecule, issolvent=issolvent, disp=disp) == 'no geometry':

@@ -32,13 +32,17 @@ We recommend to install Pybel/OpenBabel with the conda package manager,
 because then no manual installation of OpenBabel is necessary.
 For this just type 
     
-    $ conda install -c openbabel openbabel
+    $ conda install -c conda-forge openbabel
+    $ pip install pybel 
+
+There might be decorator incompatability issue when using pybel, if you encounter that:
+    $ pip install decorator==4.4
 
 in your command line.
 
 ## Installation of Solv@TUM:
 
-The latest stable release can be downloaded and installed with
+The latest stable release (python 2)can be downloaded and installed with
 
     $ rsync rsync://m1452571_001@138.246.224.34/m1452571_001/solvatum-1.0.0.zip .
     $ pip install solvatum-1.0.0.zip
