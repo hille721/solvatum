@@ -39,5 +39,5 @@ if __name__ ==  "__main__":
         url=URL,
         packages=PACKAGES,
         include_package_data=True,
-        python_requires='>=3.6,<3.8.0a0',
+        python_requires='>=3.6',
         )

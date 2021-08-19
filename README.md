@@ -88,6 +88,7 @@ but one can switch to kcal/mol or J with
 
     ```python
     >>> d.energy_unit='kcal/mol'
+    >>> d.filtering(solvent='chloroform', solute='hexane'
     {'deltaG_solv': -3.92, 'logK': 2.87}
     ```
 
