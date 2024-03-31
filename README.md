@@ -143,3 +143,26 @@ ImportError: Tkinter or Python Imaging Library not found, but is required for im
 ```
 
 For this we provided a fixed version of [pybel.py](fixed_pybel). Just locate your installation path of Pybel and replace the files.
+
+# Citation
+
+Citation for this resource:
+
+```
+Solv@TUM v 1.0
+Christoph Hille, Stefan Ringe, Martin Deimel, Christian Kunkel, William E. Acree, Karsten Reuter, Harald Oberhofer
+2018. https://doi.org/10.14459/2018mp1452571.001 
+```
+
+[bibtex key](https://mediatum.ub.tum.de/export/1452571/bibtex)
+
+
+Citation for the background paper:
+
+```
+Generalized molecular solvation in non-aqueous solutions by a single parameter implicit solvation scheme
+Christoph Hille, Stefan Ringe, Martin Deimel, Christian Kunkel, William E. Acree, Karsten Reuter, Harald Oberhofer
+J. Chem. Phys. 28 January 2019; 150 (4): 041710. https://doi.org/10.1063/1.5050938
+```
+
+[bibtex key](https://pubs.aip.org/Citation/Download?resourceId=1062234&resourceType=3&citationFormat=2)
